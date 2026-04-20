@@ -102,6 +102,7 @@ const PUBLIC_API_PREFIXES = [
 	"/_emdash/api/oauth/device/token",
 	"/_emdash/api/oauth/device/code",
 	"/_emdash/api/oauth/token",
+	"/_emdash/api/oauth/register",
 	"/_emdash/api/comments/",
 	"/_emdash/api/media/file/",
 	"/_emdash/.well-known/",
