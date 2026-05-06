@@ -91,16 +91,16 @@ catalogs:
       specifier: ^3.20.0
       version: 3.20.0
     '@tiptap/extension-table':
-      specifier: 3.20.0
+      specifier: ^3.20.0
       version: 3.20.0
     '@tiptap/extension-table-cell':
-      specifier: 3.20.0
+      specifier: ^3.20.0
       version: 3.20.0
     '@tiptap/extension-table-header':
-      specifier: 3.20.0
+      specifier: ^3.20.0
       version: 3.20.0
     '@tiptap/extension-table-row':
-      specifier: 3.20.0
+      specifier: ^3.20.0
       version: 3.20.0
     '@tiptap/extension-text-align':
       specifier: ^3.20.0

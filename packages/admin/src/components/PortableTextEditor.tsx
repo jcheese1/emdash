@@ -2486,6 +2486,8 @@ function EditorBubbleMenu({ editor }: { editor: Editor }) {
  * Shows table editing options: add/remove rows/columns, toggle header, delete table.
  */
 function TableBubbleMenu({ editor }: { editor: Editor }) {
+	const { t } = useLingui();
+
 	if (!editor.isActive("table")) {
 		return null;
 	}
@@ -2502,21 +2504,21 @@ function TableBubbleMenu({ editor }: { editor: Editor }) {
 		>
 			<BubbleButton
 				onClick={() => editor.chain().focus().addColumnBefore().run()}
-				title="Add column before"
+				title={t`Add column before`}
 			>
 				<Columns className="h-4 w-4" />
 				<Plus className="absolute -left-0.5 h-2 w-2" />
 			</BubbleButton>
 			<BubbleButton
 				onClick={() => editor.chain().focus().addColumnAfter().run()}
-				title="Add column after"
+				title={t`Add column after`}
 			>
 				<Columns className="h-4 w-4" />
 				<Plus className="absolute -right-0.5 h-2 w-2" />
 			</BubbleButton>
 			<BubbleButton
 				onClick={() => editor.chain().focus().deleteColumn().run()}
-				title="Delete column"
+				title={t`Delete column`}
 			>
 				<Columns className="h-4 w-4 text-kumo-danger" />
 			</BubbleButton>
@@ -2525,19 +2527,19 @@ function TableBubbleMenu({ editor }: { editor: Editor }) {
 
 			<BubbleButton
 				onClick={() => editor.chain().focus().addRowBefore().run()}
-				title="Add row before"
+				title={t`Add row before`}
 			>
 				<Rows className="h-4 w-4" />
 				<Plus className="absolute -top-0.5 h-2 w-2" />
 			</BubbleButton>
 			<BubbleButton
 				onClick={() => editor.chain().focus().addRowAfter().run()}
-				title="Add row after"
+				title={t`Add row after`}
 			>
 				<Rows className="h-4 w-4" />
 				<Plus className="absolute -bottom-0.5 h-2 w-2" />
 			</BubbleButton>
-			<BubbleButton onClick={() => editor.chain().focus().deleteRow().run()} title="Delete row">
+			<BubbleButton onClick={() => editor.chain().focus().deleteRow().run()} title={t`Delete row`}>
 				<Rows className="h-4 w-4 text-kumo-danger" />
 			</BubbleButton>
 
@@ -2546,11 +2548,14 @@ function TableBubbleMenu({ editor }: { editor: Editor }) {
 			<BubbleButton
 				onClick={() => editor.chain().focus().toggleHeaderRow().run()}
 				active={editor.isActive("tableHeader")}
-				title="Toggle header row"
+				title={t`Toggle header row`}
 			>
 				<TableIcon className="h-4 w-4" />
 			</BubbleButton>
-			<BubbleButton onClick={() => editor.chain().focus().deleteTable().run()} title="Delete table">
+			<BubbleButton
+				onClick={() => editor.chain().focus().deleteTable().run()}
+				title={t`Delete table`}
+			>
 				<Trash className="h-4 w-4 text-kumo-danger" />
 			</BubbleButton>
 		</BubbleMenu>
@@ -2598,6 +2603,7 @@ function EditorToolbar({
 	focusMode: FocusMode;
 	onFocusModeChange: (mode: FocusMode) => void;
 }) {
+	const { t } = useLingui();
 	const [mediaPickerOpen, setMediaPickerOpen] = React.useState(false);
 	const [showLinkPopover, setShowLinkPopover] = React.useState(false);
 	const [linkUrl, setLinkUrl] = React.useState("");
@@ -2833,7 +2839,7 @@ function EditorToolbar({
 						editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()
 					}
 					active={editor.isActive("table")}
-					title="Insert Table"
+					title={t`Insert Table`}
 				>
 					<TableIcon className="h-4 w-4" aria-hidden="true" />
 				</ToolbarButton>
