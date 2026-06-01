@@ -239,7 +239,7 @@ msgid "{0} system + {1} custom {2}"
 msgstr "{0} System + {1} benutzerdefinierte {2}"
 
 #. placeholder {0}: taxonomy.label
-#: packages/admin/src/components/TaxonomySidebar.tsx:316
+#: packages/admin/src/components/TaxonomySidebar.tsx:332
 msgid "{0} updated"
 msgstr "{0} aktualisiert"
 
@@ -532,7 +532,7 @@ msgstr "Aktiv"
 #: packages/admin/src/components/AllowedTypesEditor.tsx:171
 #: packages/admin/src/components/ContentEditor.tsx:2045
 #: packages/admin/src/components/MenuEditor.tsx:354
-#: packages/admin/src/components/TaxonomySidebar.tsx:439
+#: packages/admin/src/components/TaxonomySidebar.tsx:455
 msgid "Add"
 msgstr ""
 
@@ -544,7 +544,7 @@ msgstr ""
 msgid "Add {0}"
 msgstr "{0} hinzufügen"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:238
+#: packages/admin/src/components/TaxonomySidebar.tsx:252
 msgid "Add {label}"
 msgstr "{label} hinzufügen"
 
@@ -631,7 +631,7 @@ msgid "Add New"
 msgstr "Neu hinzufügen"
 
 #. placeholder {0}: (taxonomy.labelSingular || taxonomy.label).toLowerCase()
-#: packages/admin/src/components/TaxonomySidebar.tsx:449
+#: packages/admin/src/components/TaxonomySidebar.tsx:465
 msgid "Add new {0}"
 msgstr "{0} hinzufügen"
 
@@ -663,7 +663,7 @@ msgstr "SEO-Metadatenfelder hinzufügen (Titel, Beschreibung, Bild) und in die S
 msgid "Add Sub-Field"
 msgstr "Untergeordnetes Feld hinzufügen"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:237
+#: packages/admin/src/components/TaxonomySidebar.tsx:251
 msgid "Add tags..."
 msgstr "Schlagwörter hinzufügen..."
 
@@ -805,7 +805,7 @@ msgstr "Alternativ kannst du den Export in WordPress unter Werkzeuge → Export 
 #: packages/admin/src/components/MarketplaceBrowse.tsx:133
 #: packages/admin/src/components/PluginManager.tsx:98
 #: packages/admin/src/components/PluginManager.tsx:117
-#: packages/admin/src/components/TaxonomySidebar.tsx:321
+#: packages/admin/src/components/TaxonomySidebar.tsx:337
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:114
 #: packages/admin/src/router.tsx:341
 #: packages/admin/src/router.tsx:356
@@ -1632,7 +1632,7 @@ msgstr "Anzahl"
 msgid "Create"
 msgstr "Erstellen"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:263
+#: packages/admin/src/components/TaxonomySidebar.tsx:279
 msgid "Create \"{trimmedInput}\""
 msgstr "\"{trimmedInput}\" erstellen"
 
@@ -1807,7 +1807,7 @@ msgstr "Erstelle Kollektionen und Felder..."
 #: packages/admin/src/components/Sections.tsx:212
 #: packages/admin/src/components/settings/ApiTokenSettings.tsx:450
 #: packages/admin/src/components/TaxonomyManager.tsx:689
-#: packages/admin/src/components/TaxonomySidebar.tsx:263
+#: packages/admin/src/components/TaxonomySidebar.tsx:279
 msgid "Creating..."
 msgstr "Erstellen..."
 
@@ -2677,7 +2677,7 @@ msgstr "Erstellen der Autorenzeile fehlgeschlagen"
 msgid "Failed to create some collections"
 msgstr "Erstellen einiger Kollektionen fehlgeschlagen"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:456
+#: packages/admin/src/components/TaxonomySidebar.tsx:472
 msgid "Failed to create term"
 msgstr "Erstellen des Begriffs fehlgeschlagen"
 
@@ -2793,7 +2793,7 @@ msgstr "Ausführen des Imports fehlgeschlagen"
 msgid "Failed to fetch collection"
 msgstr "Abrufen der Kollektion fehlgeschlagen"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:81
+#: packages/admin/src/components/TaxonomySidebar.tsx:83
 msgid "Failed to fetch entry terms"
 msgstr "Abrufen der Begriffe des Eintrags fehlgeschlagen"
 
@@ -2815,7 +2815,7 @@ msgstr "Abrufen der Revision fehlgeschlagen"
 msgid "Failed to fetch setup status"
 msgstr "Abrufen des Einrichtungs-Status fehlgeschlagen"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:65
+#: packages/admin/src/components/TaxonomySidebar.tsx:67
 msgid "Failed to fetch terms"
 msgstr "Abrufen der Begriffe fehlgeschlagen"
 
@@ -3005,7 +3005,7 @@ msgstr "Senden der Test-E-Mail fehlgeschlagen"
 msgid "Failed to send verification email"
 msgstr "Senden der Bestätigungs-E-Mail fehlgeschlagen"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:100
+#: packages/admin/src/components/TaxonomySidebar.tsx:102
 msgid "Failed to set entry terms"
 msgstr "Setzen der Begriffe des Eintrags fehlgeschlagen"
 
@@ -3023,7 +3023,7 @@ msgid "Failed to unschedule"
 msgstr "Aufheben der Planung fehlgeschlagen"
 
 #. placeholder {0}: taxonomy.label.toLowerCase()
-#: packages/admin/src/components/TaxonomySidebar.tsx:320
+#: packages/admin/src/components/TaxonomySidebar.tsx:336
 msgid "Failed to update {0}"
 msgstr "Aktualisieren von {0} fehlgeschlagen"
 
@@ -4192,7 +4192,7 @@ msgid "NEW"
 msgstr "NEU"
 
 #. placeholder {0}: (taxonomy.labelSingular || taxonomy.label).toLowerCase()
-#: packages/admin/src/components/TaxonomySidebar.tsx:427
+#: packages/admin/src/components/TaxonomySidebar.tsx:443
 msgid "New {0}"
 msgstr "{0} erstellen"
 
@@ -4264,7 +4264,7 @@ msgid "No"
 msgstr "Nein"
 
 #. placeholder {0}: taxonomy.label.toLowerCase()
-#: packages/admin/src/components/TaxonomySidebar.tsx:397
+#: packages/admin/src/components/TaxonomySidebar.tsx:413
 msgid "No {0} available."
 msgstr "Keine {0} verfügbar."
 
@@ -5127,7 +5127,7 @@ msgstr "Entfernen"
 #. placeholder {0}: passkey.name
 #. placeholder {0}: term.label
 #: packages/admin/src/components/settings/PasskeyItem.tsx:188
-#: packages/admin/src/components/TaxonomySidebar.tsx:222
+#: packages/admin/src/components/TaxonomySidebar.tsx:232
 msgid "Remove {0}"
 msgstr "{0} entfernen"
 
@@ -6220,7 +6220,7 @@ msgstr "Ziel"
 msgid "Target locale"
 msgstr "Zielsprache"
 
-#: packages/admin/src/components/TaxonomySidebar.tsx:495
+#: packages/admin/src/components/TaxonomySidebar.tsx:511
 msgid "Taxonomies"
 msgstr "Taxonomien"
 
