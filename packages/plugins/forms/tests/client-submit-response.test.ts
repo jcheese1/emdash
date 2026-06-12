@@ -22,7 +22,7 @@ describe("parseSubmitResponse", () => {
 		});
 	});
 
-	it("unwraps field errors from the standard API envelope", () => {
+	it("unwraps validation errors returned in the standard API envelope", () => {
 		expect(
 			parseSubmitResponse({
 				data: {
