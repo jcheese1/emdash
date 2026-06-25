@@ -60,6 +60,7 @@ import type { PublishedRef } from "../scheduled-publish.js";
 import { isMissingTableError } from "../utils/db-errors.js";
 import { createInitLock, type InitLock, initWithLock } from "../utils/init-lock.js";
 import type { EmDashConfig } from "./integration/runtime.js";
+import { ASTRO_COOKIES_SYMBOL, finishScoped } from "./middleware/scoped-db.js";
 import { wrapBodyForStreamMetrics } from "./middleware/stream-end-metrics.js";
 import { prefetchLayoutData } from "./prefetch.js";
 import { createPublicPluginApiRouteHandler } from "./public-plugin-api-routes.js";
@@ -279,14 +280,6 @@ export async function runScheduledTasks(
 }
 
 /**
- * Astro attaches AstroCookies to outgoing responses via a well-known global
- * symbol. Cloning a Response (`new Response(body, init)`) drops non-header
- * metadata, so any middleware that wraps the response must explicitly forward
- * this symbol or `cookies.set()` calls will be silently dropped.
- */
-const ASTRO_COOKIES_SYMBOL = Symbol.for("astro.cookies");
-
-/**
  * Baseline security headers applied to all responses.
  * Admin routes get additional headers (strict CSP) from auth middleware.
  */
@@ -361,12 +354,12 @@ const SITEMAP_COLLECTION_RE = /^\/sitemap-[a-z][a-z0-9_]*\.xml$/;
  */
 function createRequestScopedDb(
 	opts: RequestScopedDbOpts,
-): { db: Kysely<Database>; commit: () => void } | null {
+): { db: Kysely<Database>; commit: () => void; close?: () => void } | null {
 	if (typeof virtualCreateRequestScopedDb !== "function") return null;
 	// eslint-disable-next-line typescript/no-unsafe-type-assertion -- adapter returns Kysely<unknown>; cast to Database since core owns that type
 	const fn = virtualCreateRequestScopedDb as (
 		o: RequestScopedDbOpts,
-	) => { db: Kysely<Database>; commit: () => void } | null;
+	) => { db: Kysely<Database>; commit: () => void; close?: () => void } | null;
 	return fn(opts);
 }
 
@@ -551,15 +544,10 @@ export const onRequest = defineMiddleware(async (context, next) => {
 						.startsWith("text/html");
 					return runWithContext(ctx, async () => {
 						if (acceptsHtml) after(() => prefetchLayoutData());
-						// commit() in finally: the write reached the primary independently
-						// of render, so the bookmark cookie must be persisted even if
-						// render throws -- otherwise a write-then-failed-render leaves the
-						// next request able to read pre-write state off a lagging replica.
-						try {
-							return await runAnon();
-						} finally {
-							anonScoped.commit();
-						}
+						// commit() persists per-request state (e.g. the D1 bookmark cookie)
+						// before the response is returned, even if render throws; close()
+						// (connection teardown) is deferred to stream-end. See finishScoped.
+						return finishScoped(anonScoped, runAnon);
 					});
 				}
 				return runAnon();
@@ -663,7 +651,17 @@ export const onRequest = defineMiddleware(async (context, next) => {
 
 					// Direct access (for advanced use cases)
 					storage: runtime.storage,
-					db: runtime.db,
+					// Lazy getter, not an eager snapshot: `locals.emdash` is built
+					// before the per-request scoped db is installed in ALS, so reading
+					// `runtime.db` here would capture the per-isolate singleton. Routes
+					// access `emdash.db` later, during the request, when the scoped db
+					// is active. For a stateless binding (D1) the two are equivalent,
+					// but for a request-bound connection (pg/Hyperdrive) the singleton
+					// belongs to the cold-start request and reusing it from a warm
+					// request hangs on workerd's cross-request I/O guard.
+					get db() {
+						return runtime.db;
+					},
 					getPublicMediaUrl: createPublicMediaUrlResolver(runtime.storage),
 					hooks: runtime.hooks,
 					email: runtime.email,
@@ -727,16 +725,12 @@ export const onRequest = defineMiddleware(async (context, next) => {
 				const ctx = parent
 					? { ...parent, db: scoped.db }
 					: { editMode: false, db: scoped.db, metrics };
-				return runWithContext(ctx, async () => {
-					// commit() in finally: persist the bookmark cookie even if render
-					// throws -- the write already reached the primary, so a failed
-					// render must not strand the next request on a stale replica read.
-					try {
-						return await renderAndFinalize();
-					} finally {
-						scoped.commit();
-					}
-				});
+				return runWithContext(ctx, () =>
+					// commit() persists per-request state (e.g. the D1 bookmark cookie)
+					// before the response returns, even if render throws; close()
+					// (connection teardown) is deferred to stream-end. See finishScoped.
+					finishScoped(scoped, renderAndFinalize),
+				);
 			}
 
 			return renderAndFinalize();
