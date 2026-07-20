@@ -545,7 +545,7 @@ msgstr "Accepter et installer"
 msgid "Accept & Update"
 msgstr "Accepter et mettre à jour"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:238
+#: packages/admin/src/components/InviteAcceptPage.tsx:240
 msgid "Accept Invite"
 msgstr "Accepter l'invitation"
 
@@ -566,11 +566,11 @@ msgstr "Accédez à votre médiathèque"
 msgid "Account"
 msgstr "Compte"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:153
+#: packages/admin/src/components/InviteAcceptPage.tsx:154
 msgid "Account already exists"
 msgstr "Le compte existe déjà"
 
-#: packages/admin/src/components/SignupPage.tsx:261
+#: packages/admin/src/components/SignupPage.tsx:262
 msgid "Account exists"
 msgstr "Le compte existe"
 
@@ -862,7 +862,7 @@ msgstr "Domaines autorisés"
 msgid "Allowed types"
 msgstr "Types autorisés"
 
-#: packages/admin/src/components/SignupPage.tsx:437
+#: packages/admin/src/components/SignupPage.tsx:439
 msgid "Already have an account?"
 msgstr "Vous avez déjà un compte ?"
 
@@ -936,7 +936,7 @@ msgstr "Une erreur s'est produite"
 msgid "An unexpected error occurred."
 msgstr "Une erreur inattendue s'est produite."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:249
+#: packages/admin/src/components/InviteAcceptPage.tsx:251
 msgid "An unknown error occurred"
 msgstr "Une erreur inconnue s'est produite"
 
@@ -1053,7 +1053,7 @@ msgstr "Audio"
 msgid "Authentication error: {0}"
 msgstr "Erreur d'authentification : {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:195
+#: packages/admin/src/components/LoginPage.tsx:197
 msgid "Authentication error: {error}"
 msgstr "Erreur d'authentification : {error}"
 
@@ -1166,11 +1166,11 @@ msgstr "Retour à la liste {collectionLabel}"
 msgid "Back to Content Types"
 msgstr "Retour aux types de contenu"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:171
-#: packages/admin/src/components/LoginPage.tsx:117
-#: packages/admin/src/components/LoginPage.tsx:153
-#: packages/admin/src/components/LoginPage.tsx:311
-#: packages/admin/src/components/SignupPage.tsx:281
+#: packages/admin/src/components/InviteAcceptPage.tsx:172
+#: packages/admin/src/components/LoginPage.tsx:118
+#: packages/admin/src/components/LoginPage.tsx:154
+#: packages/admin/src/components/LoginPage.tsx:313
+#: packages/admin/src/components/SignupPage.tsx:282
 msgid "Back to login"
 msgstr "Retour à la page de connexion"
 
@@ -1478,9 +1478,9 @@ msgstr "Vérifier les mises à jour"
 msgid "Check Site"
 msgstr "Vérifier le site"
 
-#: packages/admin/src/components/LoginPage.tsx:101
-#: packages/admin/src/components/SignupPage.tsx:130
-#: packages/admin/src/components/SignupPage.tsx:400
+#: packages/admin/src/components/LoginPage.tsx:102
+#: packages/admin/src/components/SignupPage.tsx:131
+#: packages/admin/src/components/SignupPage.tsx:402
 msgid "Check your email"
 msgstr "Vérifier votre e-mail"
 
@@ -1520,11 +1520,11 @@ msgstr "Effacer les filtres"
 msgid "Clear search"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:138
+#: packages/admin/src/components/SignupPage.tsx:139
 msgid "Click the link in the email to continue setting up your account."
 msgstr "Cliquez sur le lien dans l'e-mail pour continuer la configuration de votre compte."
 
-#: packages/admin/src/components/LoginPage.tsx:112
+#: packages/admin/src/components/LoginPage.tsx:113
 msgid "Click the link in the email to sign in."
 msgstr "Cliquez sur le lien dans l'e-mail pour vous connecter."
 
@@ -1664,7 +1664,7 @@ msgstr "Commentaires"
 msgid "Comments from logged-in CMS users are approved automatically"
 msgstr "Les commentaires des utilisateurs connectés au CMS sont approuvés automatiquement"
 
-#: packages/admin/src/components/SignupPage.tsx:401
+#: packages/admin/src/components/SignupPage.tsx:403
 msgid "Complete signup"
 msgstr "Terminer l'inscription"
 
@@ -1785,7 +1785,7 @@ msgstr "Le contenu a été ignoré car il existe déjà"
 msgid "Content Write"
 msgstr "Écriture du contenu"
 
-#: packages/admin/src/components/SignupPage.tsx:91
+#: packages/admin/src/components/SignupPage.tsx:92
 msgid "Continue"
 msgstr "Continuer"
 
@@ -1903,12 +1903,12 @@ msgstr "Créer un nouveau {0}"
 msgid "Create a numbered list"
 msgstr "Créer une liste numérotée"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:83
-#: packages/admin/src/components/SignupPage.tsx:220
+#: packages/admin/src/components/InviteAcceptPage.tsx:84
+#: packages/admin/src/components/SignupPage.tsx:221
 msgid "Create Account"
 msgstr "Créer un compte"
 
-#: packages/admin/src/components/SignupPage.tsx:399
+#: packages/admin/src/components/SignupPage.tsx:401
 msgid "Create an account"
 msgstr "Créer un compte"
 
@@ -2008,8 +2008,8 @@ msgstr "Créer le premier"
 msgid "Create your first reusable content section to get started."
 msgstr "Créer votre première section de contenu réutilisable pour commencer."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:74
-#: packages/admin/src/components/SignupPage.tsx:211
+#: packages/admin/src/components/InviteAcceptPage.tsx:75
+#: packages/admin/src/components/SignupPage.tsx:212
 msgid "Create your passkey"
 msgstr "Créer votre clé d'accès"
 
@@ -2442,7 +2442,7 @@ msgstr "Lié à l'appareil"
 msgid "Device-bound passkey"
 msgstr "Clé d'accès liée à l'appareil"
 
-#: packages/admin/src/components/SignupPage.tsx:143
+#: packages/admin/src/components/SignupPage.tsx:144
 msgid "Didn't receive the email?"
 msgstr "Vous n'avez pas reçu l'e-mail ?"
 
@@ -2589,7 +2589,7 @@ msgstr "Domaine supprimé"
 msgid "Domain updated"
 msgstr "Domaine mis à jour"
 
-#: packages/admin/src/components/LoginPage.tsx:332
+#: packages/admin/src/components/LoginPage.tsx:334
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "Pas encore de compte ? <0>S'inscrire</0>"
 
@@ -2819,9 +2819,9 @@ msgstr ""
 msgid "em1.…"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:61
+#: packages/admin/src/components/InviteAcceptPage.tsx:62
 #: packages/admin/src/components/Settings.tsx:116
-#: packages/admin/src/components/SignupPage.tsx:197
+#: packages/admin/src/components/SignupPage.tsx:198
 #: packages/admin/src/components/users/UserDetail.tsx:154
 msgid "Email"
 msgstr "E-mail"
@@ -2830,14 +2830,14 @@ msgstr "E-mail"
 msgid "Email (optional)"
 msgstr "E-mail (facultatif)"
 
-#: packages/admin/src/components/LoginPage.tsx:126
-#: packages/admin/src/components/SignupPage.tsx:66
+#: packages/admin/src/components/LoginPage.tsx:127
+#: packages/admin/src/components/SignupPage.tsx:67
 #: packages/admin/src/components/users/InviteUserModal.tsx:152
 msgid "Email address"
 msgstr "Adresse e-mail"
 
 #: packages/admin/src/components/SetupWizard.tsx:179
-#: packages/admin/src/components/SignupPage.tsx:49
+#: packages/admin/src/components/SignupPage.tsx:50
 msgid "Email is required"
 msgstr "L'e-mail est obligatoire"
 
@@ -2862,7 +2862,7 @@ msgstr "Paramètres de messagerie"
 msgid "Email verified"
 msgstr "E-mail vérifié"
 
-#: packages/admin/src/components/SignupPage.tsx:189
+#: packages/admin/src/components/SignupPage.tsx:190
 msgid "Email verified!"
 msgstr "E-mail vérifié !"
 
@@ -2950,7 +2950,7 @@ msgstr "Saisissez le code depuis votre terminal"
 msgid "Enter URL..."
 msgstr "Saisissez l'URL..."
 
-#: packages/admin/src/components/LoginPage.tsx:325
+#: packages/admin/src/components/LoginPage.tsx:327
 msgid "Enter your handle to sign in."
 msgstr "Saisissez votre identifiant pour vous connecter."
 
@@ -3503,8 +3503,8 @@ msgstr "Échec lors de l'enregistrement des paramètres"
 msgid "Failed to schedule"
 msgstr "Échec lors de la planification"
 
-#: packages/admin/src/components/LoginPage.tsx:70
-#: packages/admin/src/components/LoginPage.tsx:75
+#: packages/admin/src/components/LoginPage.tsx:71
+#: packages/admin/src/components/LoginPage.tsx:76
 msgid "Failed to send magic link"
 msgstr "Échec lors de l'envoi du lien de connexion"
 
@@ -3517,7 +3517,7 @@ msgstr "Échec lors de l'envoi du lien de récupération"
 msgid "Failed to send test email"
 msgstr "Échec lors de l'envoi de l'e-mail de test"
 
-#: packages/admin/src/components/SignupPage.tsx:349
+#: packages/admin/src/components/SignupPage.tsx:351
 msgid "Failed to send verification email"
 msgstr "Échec lors de l'envoi de l'e-mail de vérification"
 
@@ -3939,7 +3939,7 @@ msgstr "Icône floutée en raison de l'audit d'image"
 msgid "ID"
 msgstr "ID"
 
-#: packages/admin/src/components/LoginPage.tsx:103
+#: packages/admin/src/components/LoginPage.tsx:104
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "Si un compte existe pour <0>{email}</0>, nous vous avons envoyé un lien de connexion."
 
@@ -4207,7 +4207,7 @@ msgstr "En cours d'installation..."
 msgid "Integer"
 msgstr "Entier"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:151
+#: packages/admin/src/components/InviteAcceptPage.tsx:152
 msgid "Invalid invite link"
 msgstr "Lien d'invitation invalide"
 
@@ -4215,15 +4215,15 @@ msgstr "Lien d'invitation invalide"
 msgid "Invalid JSON"
 msgstr "JSON invalide"
 
-#: packages/admin/src/components/SignupPage.tsx:259
+#: packages/admin/src/components/SignupPage.tsx:260
 msgid "Invalid link"
 msgstr "Lien invalide"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:239
+#: packages/admin/src/components/InviteAcceptPage.tsx:241
 msgid "Invite Error"
 msgstr "Erreur lors de l'invitation"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:149
+#: packages/admin/src/components/InviteAcceptPage.tsx:150
 msgid "Invite expired"
 msgstr "Invitation expirée"
 
@@ -4264,7 +4264,7 @@ msgid "Item updated"
 msgstr "Article mis à jour"
 
 #: packages/admin/src/components/SetupWizard.tsx:213
-#: packages/admin/src/components/SignupPage.tsx:205
+#: packages/admin/src/components/SignupPage.tsx:206
 msgid "Jane Doe"
 msgstr "Jane Doe"
 
@@ -4332,7 +4332,7 @@ msgid "Label (Singular)"
 msgstr "Libellé (singulier)"
 
 #: packages/admin/src/components/editor/CodeBlockNode.tsx:162
-#: packages/admin/src/components/LoginPage.tsx:345
+#: packages/admin/src/components/LoginPage.tsx:347
 #: packages/admin/src/components/Settings.tsx:136
 #: packages/admin/src/components/Settings.tsx:141
 msgid "Language"
@@ -4413,7 +4413,7 @@ msgstr "Clair"
 msgid "Limit"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:257
+#: packages/admin/src/components/SignupPage.tsx:258
 msgid "Link expired"
 msgstr "Lien expiré"
 
@@ -5201,7 +5201,7 @@ msgstr "Aucun titre dans le document"
 msgid "No installable releases"
 msgstr "Aucune version installable"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:191
+#: packages/admin/src/components/InviteAcceptPage.tsx:193
 msgid "No invite token provided"
 msgstr "Aucun jeton d'invitation fourni"
 
@@ -5419,7 +5419,7 @@ msgstr "sur un nom d'hôte personnalisé n'est pas traité comme sécurisé, mê
 msgid "Only authorize codes you recognize."
 msgstr "Autorisez uniquement les codes que vous reconnaissez."
 
-#: packages/admin/src/components/SignupPage.tsx:96
+#: packages/admin/src/components/SignupPage.tsx:97
 msgid "Only email addresses from allowed domains can sign up."
 msgstr "Seules les adresses e-mail des domaines autorisés peuvent s'inscrire."
 
@@ -5431,7 +5431,7 @@ msgstr "Uniquement les lettres minuscules, les chiffres et les traits d'union"
 msgid "Only the listed MIME types will be accepted for this field."
 msgstr "Seuls les types MIME répertoriés seront acceptés pour ce champ."
 
-#: packages/admin/src/components/SignupPage.tsx:402
+#: packages/admin/src/components/SignupPage.tsx:404
 msgid "Oops!"
 msgstr "Oups !"
 
@@ -5493,8 +5493,8 @@ msgstr "Ou cliquez pour parcourir. Accepte les fichiers .xml exportés depuis Wo
 msgid "or connect by URL"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:96
-#: packages/admin/src/components/LoginPage.tsx:261
+#: packages/admin/src/components/InviteAcceptPage.tsx:97
+#: packages/admin/src/components/LoginPage.tsx:263
 #: packages/admin/src/components/SetupWizard.tsx:310
 msgid "Or continue with"
 msgstr "Ou se connecter avec"
@@ -5601,8 +5601,8 @@ msgstr "Clés d'accès ({0})"
 msgid "Passkeys are a secure, passwordless way to sign in to your account. You can register multiple passkeys for different devices."
 msgstr "Les clés d'accès sont un moyen sécurisé et sans mot de passe de vous connecter à votre compte. Vous pouvez enregistrer plusieurs clés d'accès pour différents appareils."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:76
-#: packages/admin/src/components/SignupPage.tsx:213
+#: packages/admin/src/components/InviteAcceptPage.tsx:77
+#: packages/admin/src/components/SignupPage.tsx:214
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
 msgstr "Les clés d'accès constituent un moyen sécurisé et sans mot de passe de vous connecter à l'aide des données biométriques, du code PIN ou de la clé de sécurité de votre appareil."
 
@@ -5694,7 +5694,7 @@ msgstr "Un simple"
 msgid "Plain text"
 msgstr "Texte brut"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:165
+#: packages/admin/src/components/InviteAcceptPage.tsx:166
 msgid "Please ask your administrator to send a new invite."
 msgstr "Veuillez demander à votre administrateur d'envoyer une nouvelle invitation."
 
@@ -5702,7 +5702,7 @@ msgstr "Veuillez demander à votre administrateur d'envoyer une nouvelle invitat
 msgid "Please enter a valid email"
 msgstr "Veuillez saisir un email valide"
 
-#: packages/admin/src/components/SignupPage.tsx:54
+#: packages/admin/src/components/SignupPage.tsx:55
 msgid "Please enter a valid email address"
 msgstr "Veuillez saisir une adresse email valide"
 
@@ -6174,7 +6174,7 @@ msgstr "Répondre à :"
 msgid "Repository"
 msgstr "Dépôt"
 
-#: packages/admin/src/components/SignupPage.tsx:273
+#: packages/admin/src/components/SignupPage.tsx:274
 msgid "Request a new link"
 msgstr "Demander un nouveau lien"
 
@@ -6204,11 +6204,11 @@ msgstr "Nécessaire pour l'accessibilité. Décrit l'image pour les lecteurs d'�
 msgid "Requires EmDash {0}"
 msgstr "Nécessite EmDash {0}"
 
-#: packages/admin/src/components/SignupPage.tsx:154
+#: packages/admin/src/components/SignupPage.tsx:155
 msgid "Resend email"
 msgstr "Renvoyer l'e-mail"
 
-#: packages/admin/src/components/SignupPage.tsx:153
+#: packages/admin/src/components/SignupPage.tsx:154
 msgid "Resend in {resendCooldown}s"
 msgstr "Renvoyer dans {resendCooldown} s"
 
@@ -6844,7 +6844,7 @@ msgstr "Envoyer un e-mail d'invitation à un nouveau membre de l'équipe."
 msgid "Send Invite"
 msgstr "Envoyer une invitation"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 msgid "Send magic link"
 msgstr "Envoyer un lien de connexion"
 
@@ -6860,10 +6860,10 @@ msgstr "Envoyer le test"
 msgid "Send Test Email"
 msgstr "Envoyer un e-mail de test"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 #: packages/admin/src/components/settings/EmailSettings.tsx:127
-#: packages/admin/src/components/SignupPage.tsx:88
-#: packages/admin/src/components/SignupPage.tsx:151
+#: packages/admin/src/components/SignupPage.tsx:89
+#: packages/admin/src/components/SignupPage.tsx:152
 #: packages/admin/src/components/users/InviteUserModal.tsx:201
 #: packages/admin/src/components/users/UserDetail.tsx:332
 msgid "Sending..."
@@ -6997,7 +6997,7 @@ msgstr "Afficher le jeton"
 msgid "Shown when hovering over the image."
 msgstr "S'affiche lorsque vous survolez l'image."
 
-#: packages/admin/src/components/SignupPage.tsx:439
+#: packages/admin/src/components/SignupPage.tsx:441
 msgid "Sign in"
 msgstr "Se connecter"
 
@@ -7005,32 +7005,32 @@ msgstr "Se connecter"
 msgid "Sign In"
 msgstr "Se connecter"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:161
-#: packages/admin/src/components/SignupPage.tsx:269
+#: packages/admin/src/components/InviteAcceptPage.tsx:162
+#: packages/admin/src/components/SignupPage.tsx:270
 msgid "Sign in instead"
 msgstr "Se connecter"
 
-#: packages/admin/src/components/LoginPage.tsx:232
+#: packages/admin/src/components/LoginPage.tsx:234
 msgid "Sign in to your site"
 msgstr "Se connecter à votre site"
 
 #. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
 #. placeholder {0}: provider.label
-#: packages/admin/src/components/LoginPage.tsx:231
+#: packages/admin/src/components/LoginPage.tsx:233
 #: packages/admin/src/components/SetupWizard.tsx:264
 msgid "Sign in with {0}"
 msgstr "Connectez-vous avec {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:229
+#: packages/admin/src/components/LoginPage.tsx:231
 msgid "Sign in with email"
 msgstr "Se connecter avec un e-mail"
 
-#: packages/admin/src/components/LoginPage.tsx:290
+#: packages/admin/src/components/LoginPage.tsx:292
 msgid "Sign in with email link"
 msgstr "Se connecter avec un lien envoyé par e-mail"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:252
+#: packages/admin/src/components/LoginPage.tsx:254
 msgid "Sign in with Passkey"
 msgstr "Se connecter avec une clé d'accès"
 
@@ -7156,8 +7156,8 @@ msgstr "Profils sociaux"
 msgid "Some content types cannot be imported"
 msgstr "Certains types de contenu ne peuvent pas être importés"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:154
-#: packages/admin/src/components/SignupPage.tsx:262
+#: packages/admin/src/components/InviteAcceptPage.tsx:155
+#: packages/admin/src/components/SignupPage.tsx:263
 msgid "Something went wrong"
 msgstr "Quelque chose s'est mal passé"
 
@@ -7389,8 +7389,8 @@ msgstr "Les tableaux suivants contiennent du contenu mais ne sont pas enregistr�
 msgid "The invited user will have this role once they complete registration."
 msgstr "L'utilisateur invité aura ce rôle une fois son inscription terminée."
 
-#: packages/admin/src/components/LoginPage.tsx:113
-#: packages/admin/src/components/SignupPage.tsx:139
+#: packages/admin/src/components/LoginPage.tsx:114
+#: packages/admin/src/components/SignupPage.tsx:140
 msgid "The link will expire in 15 minutes."
 msgstr "Le lien expirera dans 15 minutes."
 
@@ -8075,7 +8075,7 @@ msgstr "Utilisez [param] ou [...rest] dans les chemins pour la correspondance de
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr "Utilisez l'authentification biométrique, la clé de sécurité ou le code PIN de votre appareil pour vous connecter."
 
-#: packages/admin/src/components/LoginPage.tsx:326
+#: packages/admin/src/components/LoginPage.tsx:328
 msgid "Use your registered passkey to sign in securely."
 msgstr "Utilisez votre clé d'accès enregistrée pour vous connecter en toute sécurité."
 
@@ -8165,11 +8165,11 @@ msgstr "Éditeur vérifié. Un étiqueteur ({verifiedLabeller}) a confirmé l'id
 msgid "Verified publisher. A labeller has confirmed this publisher's identity."
 msgstr "Éditeur vérifié. Un étiqueteur a confirmé l'identité de cet éditeur."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:226
+#: packages/admin/src/components/InviteAcceptPage.tsx:228
 msgid "Verifying your invite..."
 msgstr "Vérification de votre invitation en cours..."
 
-#: packages/admin/src/components/SignupPage.tsx:386
+#: packages/admin/src/components/SignupPage.tsx:388
 msgid "Verifying your link..."
 msgstr "Vérification de votre lien en cours..."
 
@@ -8251,11 +8251,11 @@ msgstr "Nous n'avons pas pu vérifier l'identité de cet éditeur"
 msgid "We'll check what import options are available for your site."
 msgstr "Nous vérifierons quelles options d'importation sont disponibles pour votre site."
 
-#: packages/admin/src/components/LoginPage.tsx:323
+#: packages/admin/src/components/LoginPage.tsx:325
 msgid "We'll send you a link to sign in without a password."
 msgstr "Nous vous enverrons un lien pour vous connecter sans mot de passe."
 
-#: packages/admin/src/components/SignupPage.tsx:132
+#: packages/admin/src/components/SignupPage.tsx:133
 msgid "We've sent a verification link to"
 msgstr "Nous avons envoyé un lien de vérification à"
 
@@ -8491,7 +8491,7 @@ msgid "You won't be able to use this passkey to sign in anymore. This action can
 msgstr "Vous ne pourrez plus utiliser cette clé d'accès pour vous connecter. Cette action ne peut pas être annulée."
 
 #. placeholder {0}: inviteData.roleName
-#: packages/admin/src/components/InviteAcceptPage.tsx:54
+#: packages/admin/src/components/InviteAcceptPage.tsx:55
 msgid "You'll be joining as <0>{0}</0>"
 msgstr "Vous nous rejoindrez en tant que <0>{0}</0>"
 
@@ -8503,7 +8503,7 @@ msgstr "Vous serez invité à utiliser l'authentification biométrique, la clé 
 msgid "You'll be redirected to WordPress to authorize the connection."
 msgstr "Vous serez redirigé vers WordPress pour autoriser la connexion."
 
-#: packages/admin/src/components/SignupPage.tsx:191
+#: packages/admin/src/components/SignupPage.tsx:192
 msgid "You'll be signing up as"
 msgstr "Vous serez inscrit en tant que"
 
@@ -8511,11 +8511,11 @@ msgstr "Vous serez inscrit en tant que"
 msgid "You're signed in via Cloudflare Access"
 msgstr "Vous êtes connecté via Cloudflare Access"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:52
+#: packages/admin/src/components/InviteAcceptPage.tsx:53
 msgid "You've been invited!"
 msgstr "Vous avez été invité !"
 
-#: packages/admin/src/components/SignupPage.tsx:70
+#: packages/admin/src/components/SignupPage.tsx:71
 msgid "you@company.com"
 msgstr "vous@entreprise.com"
 
@@ -8567,8 +8567,8 @@ msgstr ""
 msgid "Your Name"
 msgstr "Votre nom"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:64
-#: packages/admin/src/components/SignupPage.tsx:201
+#: packages/admin/src/components/InviteAcceptPage.tsx:65
+#: packages/admin/src/components/SignupPage.tsx:202
 msgid "Your name (optional)"
 msgstr "Votre nom (facultatif)"
 

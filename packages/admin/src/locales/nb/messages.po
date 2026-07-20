@@ -545,7 +545,7 @@ msgstr "Godta og installer"
 msgid "Accept & Update"
 msgstr "Godta og oppdater"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:238
+#: packages/admin/src/components/InviteAcceptPage.tsx:240
 msgid "Accept Invite"
 msgstr "Godta invitasjon"
 
@@ -566,11 +566,11 @@ msgstr "Få tilgang til mediebiblioteket ditt"
 msgid "Account"
 msgstr "Konto"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:153
+#: packages/admin/src/components/InviteAcceptPage.tsx:154
 msgid "Account already exists"
 msgstr "Kontoen finnes allerede"
 
-#: packages/admin/src/components/SignupPage.tsx:261
+#: packages/admin/src/components/SignupPage.tsx:262
 msgid "Account exists"
 msgstr "Kontoen finnes"
 
@@ -862,7 +862,7 @@ msgstr "Tillatte domener"
 msgid "Allowed types"
 msgstr "Tillatte typer"
 
-#: packages/admin/src/components/SignupPage.tsx:437
+#: packages/admin/src/components/SignupPage.tsx:439
 msgid "Already have an account?"
 msgstr "Har du allerede en konto?"
 
@@ -936,7 +936,7 @@ msgstr "Det oppstod en feil"
 msgid "An unexpected error occurred."
 msgstr "Det oppstod en uventet feil."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:249
+#: packages/admin/src/components/InviteAcceptPage.tsx:251
 msgid "An unknown error occurred"
 msgstr "Det oppstod en ukjent feil"
 
@@ -1053,7 +1053,7 @@ msgstr "Lyd"
 msgid "Authentication error: {0}"
 msgstr "Autentiseringsfeil: {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:195
+#: packages/admin/src/components/LoginPage.tsx:197
 msgid "Authentication error: {error}"
 msgstr "Autentiseringsfeil: {error}"
 
@@ -1166,11 +1166,11 @@ msgstr "Tilbake til {collectionLabel}-listen"
 msgid "Back to Content Types"
 msgstr "Tilbake til innholdstyper"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:171
-#: packages/admin/src/components/LoginPage.tsx:117
-#: packages/admin/src/components/LoginPage.tsx:153
-#: packages/admin/src/components/LoginPage.tsx:311
-#: packages/admin/src/components/SignupPage.tsx:281
+#: packages/admin/src/components/InviteAcceptPage.tsx:172
+#: packages/admin/src/components/LoginPage.tsx:118
+#: packages/admin/src/components/LoginPage.tsx:154
+#: packages/admin/src/components/LoginPage.tsx:313
+#: packages/admin/src/components/SignupPage.tsx:282
 msgid "Back to login"
 msgstr "Tilbake til innlogging"
 
@@ -1478,9 +1478,9 @@ msgstr "Se etter oppdateringer"
 msgid "Check Site"
 msgstr "Sjekk nettsted"
 
-#: packages/admin/src/components/LoginPage.tsx:101
-#: packages/admin/src/components/SignupPage.tsx:130
-#: packages/admin/src/components/SignupPage.tsx:400
+#: packages/admin/src/components/LoginPage.tsx:102
+#: packages/admin/src/components/SignupPage.tsx:131
+#: packages/admin/src/components/SignupPage.tsx:402
 msgid "Check your email"
 msgstr "Sjekk e-posten din"
 
@@ -1520,11 +1520,11 @@ msgstr "Tøm filtre"
 msgid "Clear search"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:138
+#: packages/admin/src/components/SignupPage.tsx:139
 msgid "Click the link in the email to continue setting up your account."
 msgstr "Klikk på lenken i e-posten for å fortsette å sette opp kontoen din."
 
-#: packages/admin/src/components/LoginPage.tsx:112
+#: packages/admin/src/components/LoginPage.tsx:113
 msgid "Click the link in the email to sign in."
 msgstr "Klikk på lenken i e-posten for å logge inn."
 
@@ -1664,7 +1664,7 @@ msgstr "Kommentarer"
 msgid "Comments from logged-in CMS users are approved automatically"
 msgstr "Kommentarer fra innloggede CMS-brukere godkjennes automatisk"
 
-#: packages/admin/src/components/SignupPage.tsx:401
+#: packages/admin/src/components/SignupPage.tsx:403
 msgid "Complete signup"
 msgstr "Fullfør registrering"
 
@@ -1785,7 +1785,7 @@ msgstr "Innholdet ble hoppet over fordi det allerede finnes"
 msgid "Content Write"
 msgstr "Skriv innhold"
 
-#: packages/admin/src/components/SignupPage.tsx:91
+#: packages/admin/src/components/SignupPage.tsx:92
 msgid "Continue"
 msgstr "Fortsett"
 
@@ -1903,12 +1903,12 @@ msgstr "Opprett en ny {0}"
 msgid "Create a numbered list"
 msgstr "Opprett en nummerert liste"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:83
-#: packages/admin/src/components/SignupPage.tsx:220
+#: packages/admin/src/components/InviteAcceptPage.tsx:84
+#: packages/admin/src/components/SignupPage.tsx:221
 msgid "Create Account"
 msgstr "Opprett konto"
 
-#: packages/admin/src/components/SignupPage.tsx:399
+#: packages/admin/src/components/SignupPage.tsx:401
 msgid "Create an account"
 msgstr "Opprett en konto"
 
@@ -2008,8 +2008,8 @@ msgstr "Opprett din første"
 msgid "Create your first reusable content section to get started."
 msgstr "Opprett din første gjenbrukbare innholdsseksjon for å komme i gang."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:74
-#: packages/admin/src/components/SignupPage.tsx:211
+#: packages/admin/src/components/InviteAcceptPage.tsx:75
+#: packages/admin/src/components/SignupPage.tsx:212
 msgid "Create your passkey"
 msgstr "Opprett passnøkkelen din"
 
@@ -2442,7 +2442,7 @@ msgstr "Enhetsbundet"
 msgid "Device-bound passkey"
 msgstr "Enhetsbundet passnøkkel"
 
-#: packages/admin/src/components/SignupPage.tsx:143
+#: packages/admin/src/components/SignupPage.tsx:144
 msgid "Didn't receive the email?"
 msgstr "Mottok du ikke e-posten?"
 
@@ -2589,7 +2589,7 @@ msgstr "Domenet ble fjernet"
 msgid "Domain updated"
 msgstr "Domenet ble oppdatert"
 
-#: packages/admin/src/components/LoginPage.tsx:332
+#: packages/admin/src/components/LoginPage.tsx:334
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "Har du ikke en konto? <0>Registrer deg</0>"
 
@@ -2819,9 +2819,9 @@ msgstr ""
 msgid "em1.…"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:61
+#: packages/admin/src/components/InviteAcceptPage.tsx:62
 #: packages/admin/src/components/Settings.tsx:116
-#: packages/admin/src/components/SignupPage.tsx:197
+#: packages/admin/src/components/SignupPage.tsx:198
 #: packages/admin/src/components/users/UserDetail.tsx:154
 msgid "Email"
 msgstr "E-post"
@@ -2830,14 +2830,14 @@ msgstr "E-post"
 msgid "Email (optional)"
 msgstr "E-post (valgfri)"
 
-#: packages/admin/src/components/LoginPage.tsx:126
-#: packages/admin/src/components/SignupPage.tsx:66
+#: packages/admin/src/components/LoginPage.tsx:127
+#: packages/admin/src/components/SignupPage.tsx:67
 #: packages/admin/src/components/users/InviteUserModal.tsx:152
 msgid "Email address"
 msgstr "E-postadresse"
 
 #: packages/admin/src/components/SetupWizard.tsx:179
-#: packages/admin/src/components/SignupPage.tsx:49
+#: packages/admin/src/components/SignupPage.tsx:50
 msgid "Email is required"
 msgstr "E-post er påkrevd"
 
@@ -2862,7 +2862,7 @@ msgstr "E-postinnstillinger"
 msgid "Email verified"
 msgstr "E-post bekreftet"
 
-#: packages/admin/src/components/SignupPage.tsx:189
+#: packages/admin/src/components/SignupPage.tsx:190
 msgid "Email verified!"
 msgstr "E-post bekreftet!"
 
@@ -2950,7 +2950,7 @@ msgstr "Skriv inn koden fra terminalen din"
 msgid "Enter URL..."
 msgstr "Skriv inn URL..."
 
-#: packages/admin/src/components/LoginPage.tsx:325
+#: packages/admin/src/components/LoginPage.tsx:327
 msgid "Enter your handle to sign in."
 msgstr "Skriv inn brukernavnet ditt for å logge inn."
 
@@ -3503,8 +3503,8 @@ msgstr "Kunne ikke lagre innstillinger"
 msgid "Failed to schedule"
 msgstr "Kunne ikke planlegge"
 
-#: packages/admin/src/components/LoginPage.tsx:70
-#: packages/admin/src/components/LoginPage.tsx:75
+#: packages/admin/src/components/LoginPage.tsx:71
+#: packages/admin/src/components/LoginPage.tsx:76
 msgid "Failed to send magic link"
 msgstr "Kunne ikke sende magisk lenke"
 
@@ -3517,7 +3517,7 @@ msgstr "Kunne ikke sende gjenopprettingslenke"
 msgid "Failed to send test email"
 msgstr "Kunne ikke sende test-e-post"
 
-#: packages/admin/src/components/SignupPage.tsx:349
+#: packages/admin/src/components/SignupPage.tsx:351
 msgid "Failed to send verification email"
 msgstr "Kunne ikke sende bekreftelses-e-post"
 
@@ -3939,7 +3939,7 @@ msgstr "Ikonet er uskarpt på grunn av bildekontroll"
 msgid "ID"
 msgstr "ID"
 
-#: packages/admin/src/components/LoginPage.tsx:103
+#: packages/admin/src/components/LoginPage.tsx:104
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "Hvis det finnes en konto for <0>{email}</0>, har vi sendt en innloggingslenke."
 
@@ -4207,7 +4207,7 @@ msgstr "Installerer …"
 msgid "Integer"
 msgstr "Heltall"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:151
+#: packages/admin/src/components/InviteAcceptPage.tsx:152
 msgid "Invalid invite link"
 msgstr "Ugyldig invitasjonslenke"
 
@@ -4215,15 +4215,15 @@ msgstr "Ugyldig invitasjonslenke"
 msgid "Invalid JSON"
 msgstr "Ugyldig JSON"
 
-#: packages/admin/src/components/SignupPage.tsx:259
+#: packages/admin/src/components/SignupPage.tsx:260
 msgid "Invalid link"
 msgstr "Ugyldig lenke"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:239
+#: packages/admin/src/components/InviteAcceptPage.tsx:241
 msgid "Invite Error"
 msgstr "Invitasjonsfeil"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:149
+#: packages/admin/src/components/InviteAcceptPage.tsx:150
 msgid "Invite expired"
 msgstr "Invitasjon utløpt"
 
@@ -4264,7 +4264,7 @@ msgid "Item updated"
 msgstr "Element oppdatert"
 
 #: packages/admin/src/components/SetupWizard.tsx:213
-#: packages/admin/src/components/SignupPage.tsx:205
+#: packages/admin/src/components/SignupPage.tsx:206
 msgid "Jane Doe"
 msgstr "Kari Nordmann"
 
@@ -4332,7 +4332,7 @@ msgid "Label (Singular)"
 msgstr "Etikett (entall)"
 
 #: packages/admin/src/components/editor/CodeBlockNode.tsx:162
-#: packages/admin/src/components/LoginPage.tsx:345
+#: packages/admin/src/components/LoginPage.tsx:347
 #: packages/admin/src/components/Settings.tsx:136
 #: packages/admin/src/components/Settings.tsx:141
 msgid "Language"
@@ -4413,7 +4413,7 @@ msgstr "Lys"
 msgid "Limit"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:257
+#: packages/admin/src/components/SignupPage.tsx:258
 msgid "Link expired"
 msgstr "Lenken er utløpt"
 
@@ -5201,7 +5201,7 @@ msgstr "Ingen overskrifter i dokumentet"
 msgid "No installable releases"
 msgstr "Ingen installerbare utgivelser"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:191
+#: packages/admin/src/components/InviteAcceptPage.tsx:193
 msgid "No invite token provided"
 msgstr "Ingen invitasjonstoken oppgitt"
 
@@ -5419,7 +5419,7 @@ msgstr "på et egendefinert vertsnavn behandles ikke som sikkert, selv på loopb
 msgid "Only authorize codes you recognize."
 msgstr "Autoriser bare koder du kjenner igjen."
 
-#: packages/admin/src/components/SignupPage.tsx:96
+#: packages/admin/src/components/SignupPage.tsx:97
 msgid "Only email addresses from allowed domains can sign up."
 msgstr "Bare e-postadresser fra tillatte domener kan registrere seg."
 
@@ -5431,7 +5431,7 @@ msgstr "Kun små bokstaver, tall og bindestreker"
 msgid "Only the listed MIME types will be accepted for this field."
 msgstr "Bare de oppførte MIME-typene godtas for dette feltet."
 
-#: packages/admin/src/components/SignupPage.tsx:402
+#: packages/admin/src/components/SignupPage.tsx:404
 msgid "Oops!"
 msgstr "Oi sann!"
 
@@ -5493,8 +5493,8 @@ msgstr "Eller klikk for å bla gjennom. Godtar .xml-filer eksportert fra WordPre
 msgid "or connect by URL"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:96
-#: packages/admin/src/components/LoginPage.tsx:261
+#: packages/admin/src/components/InviteAcceptPage.tsx:97
+#: packages/admin/src/components/LoginPage.tsx:263
 #: packages/admin/src/components/SetupWizard.tsx:310
 msgid "Or continue with"
 msgstr "Eller fortsett med"
@@ -5601,8 +5601,8 @@ msgstr "Passnøkler ({0})"
 msgid "Passkeys are a secure, passwordless way to sign in to your account. You can register multiple passkeys for different devices."
 msgstr "Passnøkler er en sikker, passordløs måte å logge inn på kontoen din. Du kan registrere flere passnøkler for ulike enheter."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:76
-#: packages/admin/src/components/SignupPage.tsx:213
+#: packages/admin/src/components/InviteAcceptPage.tsx:77
+#: packages/admin/src/components/SignupPage.tsx:214
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
 msgstr "Passnøkler er en sikker, passordløs måte å logge inn ved hjelp av enhetens biometri, PIN-kode eller sikkerhetsnøkkel."
 
@@ -5694,7 +5694,7 @@ msgstr "Vanlig"
 msgid "Plain text"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:165
+#: packages/admin/src/components/InviteAcceptPage.tsx:166
 msgid "Please ask your administrator to send a new invite."
 msgstr "Be administratoren din om å sende en ny invitasjon."
 
@@ -5702,7 +5702,7 @@ msgstr "Be administratoren din om å sende en ny invitasjon."
 msgid "Please enter a valid email"
 msgstr "Skriv inn en gyldig e-postadresse"
 
-#: packages/admin/src/components/SignupPage.tsx:54
+#: packages/admin/src/components/SignupPage.tsx:55
 msgid "Please enter a valid email address"
 msgstr "Skriv inn en gyldig e-postadresse"
 
@@ -6174,7 +6174,7 @@ msgstr "Svar til:"
 msgid "Repository"
 msgstr "Kodelager"
 
-#: packages/admin/src/components/SignupPage.tsx:273
+#: packages/admin/src/components/SignupPage.tsx:274
 msgid "Request a new link"
 msgstr "Be om en ny lenke"
 
@@ -6204,11 +6204,11 @@ msgstr "Påkrevd for tilgjengelighet. Beskriver bildet for skjermlesere."
 msgid "Requires EmDash {0}"
 msgstr "Krever EmDash {0}"
 
-#: packages/admin/src/components/SignupPage.tsx:154
+#: packages/admin/src/components/SignupPage.tsx:155
 msgid "Resend email"
 msgstr "Send e-post på nytt"
 
-#: packages/admin/src/components/SignupPage.tsx:153
+#: packages/admin/src/components/SignupPage.tsx:154
 msgid "Resend in {resendCooldown}s"
 msgstr "Send på nytt om {resendCooldown} s"
 
@@ -6844,7 +6844,7 @@ msgstr "Send en invitasjonsepost til et nytt teammedlem."
 msgid "Send Invite"
 msgstr "Send invitasjon"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 msgid "Send magic link"
 msgstr "Send magisk lenke"
 
@@ -6860,10 +6860,10 @@ msgstr "Send test"
 msgid "Send Test Email"
 msgstr "Send test-e-post"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 #: packages/admin/src/components/settings/EmailSettings.tsx:127
-#: packages/admin/src/components/SignupPage.tsx:88
-#: packages/admin/src/components/SignupPage.tsx:151
+#: packages/admin/src/components/SignupPage.tsx:89
+#: packages/admin/src/components/SignupPage.tsx:152
 #: packages/admin/src/components/users/InviteUserModal.tsx:201
 #: packages/admin/src/components/users/UserDetail.tsx:332
 msgid "Sending..."
@@ -6997,7 +6997,7 @@ msgstr "Vis token"
 msgid "Shown when hovering over the image."
 msgstr "Vises når du holder musepekeren over bildet."
 
-#: packages/admin/src/components/SignupPage.tsx:439
+#: packages/admin/src/components/SignupPage.tsx:441
 msgid "Sign in"
 msgstr "Logg inn"
 
@@ -7005,32 +7005,32 @@ msgstr "Logg inn"
 msgid "Sign In"
 msgstr "Logg inn"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:161
-#: packages/admin/src/components/SignupPage.tsx:269
+#: packages/admin/src/components/InviteAcceptPage.tsx:162
+#: packages/admin/src/components/SignupPage.tsx:270
 msgid "Sign in instead"
 msgstr "Logg inn i stedet"
 
-#: packages/admin/src/components/LoginPage.tsx:232
+#: packages/admin/src/components/LoginPage.tsx:234
 msgid "Sign in to your site"
 msgstr "Logg inn på nettstedet ditt"
 
 #. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
 #. placeholder {0}: provider.label
-#: packages/admin/src/components/LoginPage.tsx:231
+#: packages/admin/src/components/LoginPage.tsx:233
 #: packages/admin/src/components/SetupWizard.tsx:264
 msgid "Sign in with {0}"
 msgstr "Logg inn med {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:229
+#: packages/admin/src/components/LoginPage.tsx:231
 msgid "Sign in with email"
 msgstr "Logg inn med e-post"
 
-#: packages/admin/src/components/LoginPage.tsx:290
+#: packages/admin/src/components/LoginPage.tsx:292
 msgid "Sign in with email link"
 msgstr "Logg inn med e-postlenke"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:252
+#: packages/admin/src/components/LoginPage.tsx:254
 msgid "Sign in with Passkey"
 msgstr "Logg inn med passnøkkel"
 
@@ -7156,8 +7156,8 @@ msgstr "Sosiale profiler"
 msgid "Some content types cannot be imported"
 msgstr "Enkelte innholdstyper kan ikke importeres"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:154
-#: packages/admin/src/components/SignupPage.tsx:262
+#: packages/admin/src/components/InviteAcceptPage.tsx:155
+#: packages/admin/src/components/SignupPage.tsx:263
 msgid "Something went wrong"
 msgstr "Noe gikk galt"
 
@@ -7389,8 +7389,8 @@ msgstr "Følgende tabeller inneholder innhold, men er ikke registrert som samlin
 msgid "The invited user will have this role once they complete registration."
 msgstr "Den inviterte brukeren vil ha denne rollen når registreringen er fullført."
 
-#: packages/admin/src/components/LoginPage.tsx:113
-#: packages/admin/src/components/SignupPage.tsx:139
+#: packages/admin/src/components/LoginPage.tsx:114
+#: packages/admin/src/components/SignupPage.tsx:140
 msgid "The link will expire in 15 minutes."
 msgstr "Lenken utløper om 15 minutter."
 
@@ -8075,7 +8075,7 @@ msgstr "Bruk [param] eller [...rest] i stier for mønstertilpasning."
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr "Bruk enhetens biometriske autentisering, sikkerhetsnøkkel eller PIN-kode for å logge inn."
 
-#: packages/admin/src/components/LoginPage.tsx:326
+#: packages/admin/src/components/LoginPage.tsx:328
 msgid "Use your registered passkey to sign in securely."
 msgstr "Bruk den registrerte passnøkkelen din for å logge inn sikkert."
 
@@ -8165,11 +8165,11 @@ msgstr "Verifisert utgiver. En merker ({verifiedLabeller}) har bekreftet identit
 msgid "Verified publisher. A labeller has confirmed this publisher's identity."
 msgstr "Verifisert utgiver. En merker har bekreftet identiteten til denne utgiveren."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:226
+#: packages/admin/src/components/InviteAcceptPage.tsx:228
 msgid "Verifying your invite..."
 msgstr "Verifiserer invitasjonen din …"
 
-#: packages/admin/src/components/SignupPage.tsx:386
+#: packages/admin/src/components/SignupPage.tsx:388
 msgid "Verifying your link..."
 msgstr "Verifiserer lenken din …"
 
@@ -8251,11 +8251,11 @@ msgstr "Vi kunne ikke verifisere identiteten til denne utgiveren"
 msgid "We'll check what import options are available for your site."
 msgstr "Vi sjekker hvilke importalternativer som er tilgjengelige for nettstedet ditt."
 
-#: packages/admin/src/components/LoginPage.tsx:323
+#: packages/admin/src/components/LoginPage.tsx:325
 msgid "We'll send you a link to sign in without a password."
 msgstr "Vi sender deg en lenke for å logge inn uten passord."
 
-#: packages/admin/src/components/SignupPage.tsx:132
+#: packages/admin/src/components/SignupPage.tsx:133
 msgid "We've sent a verification link to"
 msgstr "Vi har sendt en verifiseringslenke til"
 
@@ -8491,7 +8491,7 @@ msgid "You won't be able to use this passkey to sign in anymore. This action can
 msgstr "Du vil ikke lenger kunne bruke denne passnøkkelen til å logge inn. Denne handlingen kan ikke angres."
 
 #. placeholder {0}: inviteData.roleName
-#: packages/admin/src/components/InviteAcceptPage.tsx:54
+#: packages/admin/src/components/InviteAcceptPage.tsx:55
 msgid "You'll be joining as <0>{0}</0>"
 msgstr "Du blir med som <0>{0}</0>"
 
@@ -8503,7 +8503,7 @@ msgstr "Du blir bedt om å bruke enhetens biometriske autentisering, sikkerhetsn
 msgid "You'll be redirected to WordPress to authorize the connection."
 msgstr "Du blir videresendt til WordPress for å godkjenne tilkoblingen."
 
-#: packages/admin/src/components/SignupPage.tsx:191
+#: packages/admin/src/components/SignupPage.tsx:192
 msgid "You'll be signing up as"
 msgstr "Du registrerer deg som"
 
@@ -8511,11 +8511,11 @@ msgstr "Du registrerer deg som"
 msgid "You're signed in via Cloudflare Access"
 msgstr "Du er logget inn via Cloudflare Access"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:52
+#: packages/admin/src/components/InviteAcceptPage.tsx:53
 msgid "You've been invited!"
 msgstr "Du er invitert!"
 
-#: packages/admin/src/components/SignupPage.tsx:70
+#: packages/admin/src/components/SignupPage.tsx:71
 msgid "you@company.com"
 msgstr "du@firma.no"
 
@@ -8567,8 +8567,8 @@ msgstr ""
 msgid "Your Name"
 msgstr "Navnet ditt"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:64
-#: packages/admin/src/components/SignupPage.tsx:201
+#: packages/admin/src/components/InviteAcceptPage.tsx:65
+#: packages/admin/src/components/SignupPage.tsx:202
 msgid "Your name (optional)"
 msgstr "Navnet ditt (valgfritt)"
 

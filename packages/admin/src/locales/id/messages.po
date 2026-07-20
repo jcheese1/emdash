@@ -545,7 +545,7 @@ msgstr "Terima & Pasang"
 msgid "Accept & Update"
 msgstr "Terima & Perbarui"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:238
+#: packages/admin/src/components/InviteAcceptPage.tsx:240
 msgid "Accept Invite"
 msgstr "Terima Undangan"
 
@@ -566,11 +566,11 @@ msgstr "Akses pustaka media Anda"
 msgid "Account"
 msgstr "Akun"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:153
+#: packages/admin/src/components/InviteAcceptPage.tsx:154
 msgid "Account already exists"
 msgstr "Akun sudah ada"
 
-#: packages/admin/src/components/SignupPage.tsx:261
+#: packages/admin/src/components/SignupPage.tsx:262
 msgid "Account exists"
 msgstr "Akun sudah ada"
 
@@ -862,7 +862,7 @@ msgstr "Domain yang Diizinkan"
 msgid "Allowed types"
 msgstr "Tipe yang diizinkan"
 
-#: packages/admin/src/components/SignupPage.tsx:437
+#: packages/admin/src/components/SignupPage.tsx:439
 msgid "Already have an account?"
 msgstr "Sudah punya akun?"
 
@@ -936,7 +936,7 @@ msgstr "Terjadi kesalahan"
 msgid "An unexpected error occurred."
 msgstr "Terjadi kesalahan yang tidak terduga."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:249
+#: packages/admin/src/components/InviteAcceptPage.tsx:251
 msgid "An unknown error occurred"
 msgstr "Terjadi kesalahan tak dikenal"
 
@@ -1053,7 +1053,7 @@ msgstr "Audio"
 msgid "Authentication error: {0}"
 msgstr "Kesalahan autentikasi: {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:195
+#: packages/admin/src/components/LoginPage.tsx:197
 msgid "Authentication error: {error}"
 msgstr "Kesalahan autentikasi: {error}"
 
@@ -1166,11 +1166,11 @@ msgstr "Kembali ke daftar {collectionLabel}"
 msgid "Back to Content Types"
 msgstr "Kembali ke Tipe Konten"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:171
-#: packages/admin/src/components/LoginPage.tsx:117
-#: packages/admin/src/components/LoginPage.tsx:153
-#: packages/admin/src/components/LoginPage.tsx:311
-#: packages/admin/src/components/SignupPage.tsx:281
+#: packages/admin/src/components/InviteAcceptPage.tsx:172
+#: packages/admin/src/components/LoginPage.tsx:118
+#: packages/admin/src/components/LoginPage.tsx:154
+#: packages/admin/src/components/LoginPage.tsx:313
+#: packages/admin/src/components/SignupPage.tsx:282
 msgid "Back to login"
 msgstr "Kembali ke login"
 
@@ -1478,9 +1478,9 @@ msgstr "Periksa pembaruan"
 msgid "Check Site"
 msgstr "Periksa Situs"
 
-#: packages/admin/src/components/LoginPage.tsx:101
-#: packages/admin/src/components/SignupPage.tsx:130
-#: packages/admin/src/components/SignupPage.tsx:400
+#: packages/admin/src/components/LoginPage.tsx:102
+#: packages/admin/src/components/SignupPage.tsx:131
+#: packages/admin/src/components/SignupPage.tsx:402
 msgid "Check your email"
 msgstr "Periksa email Anda"
 
@@ -1520,11 +1520,11 @@ msgstr "Bersihkan filter"
 msgid "Clear search"
 msgstr "Bersihkan pencarian"
 
-#: packages/admin/src/components/SignupPage.tsx:138
+#: packages/admin/src/components/SignupPage.tsx:139
 msgid "Click the link in the email to continue setting up your account."
 msgstr "Klik tautan di email untuk melanjutkan pengaturan akun Anda."
 
-#: packages/admin/src/components/LoginPage.tsx:112
+#: packages/admin/src/components/LoginPage.tsx:113
 msgid "Click the link in the email to sign in."
 msgstr "Klik tautan di email untuk masuk."
 
@@ -1664,7 +1664,7 @@ msgstr "Komentar"
 msgid "Comments from logged-in CMS users are approved automatically"
 msgstr "Komentar dari pengguna CMS yang login disetujui otomatis"
 
-#: packages/admin/src/components/SignupPage.tsx:401
+#: packages/admin/src/components/SignupPage.tsx:403
 msgid "Complete signup"
 msgstr "Selesaikan pendaftaran"
 
@@ -1785,7 +1785,7 @@ msgstr "Konten dilewati karena sudah ada"
 msgid "Content Write"
 msgstr "Tulis Konten"
 
-#: packages/admin/src/components/SignupPage.tsx:91
+#: packages/admin/src/components/SignupPage.tsx:92
 msgid "Continue"
 msgstr "Lanjutkan"
 
@@ -1903,12 +1903,12 @@ msgstr "Buat {0} baru"
 msgid "Create a numbered list"
 msgstr "Buat daftar bernomor"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:83
-#: packages/admin/src/components/SignupPage.tsx:220
+#: packages/admin/src/components/InviteAcceptPage.tsx:84
+#: packages/admin/src/components/SignupPage.tsx:221
 msgid "Create Account"
 msgstr "Buat Akun"
 
-#: packages/admin/src/components/SignupPage.tsx:399
+#: packages/admin/src/components/SignupPage.tsx:401
 msgid "Create an account"
 msgstr "Buat akun"
 
@@ -2008,8 +2008,8 @@ msgstr "Buat yang pertama"
 msgid "Create your first reusable content section to get started."
 msgstr "Buat bagian konten pertama yang dapat digunakan kembali untuk memulai."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:74
-#: packages/admin/src/components/SignupPage.tsx:211
+#: packages/admin/src/components/InviteAcceptPage.tsx:75
+#: packages/admin/src/components/SignupPage.tsx:212
 msgid "Create your passkey"
 msgstr "Buat passkey Anda"
 
@@ -2442,7 +2442,7 @@ msgstr "Terikat perangkat"
 msgid "Device-bound passkey"
 msgstr "Passkey terikat perangkat"
 
-#: packages/admin/src/components/SignupPage.tsx:143
+#: packages/admin/src/components/SignupPage.tsx:144
 msgid "Didn't receive the email?"
 msgstr "Tidak menerima email?"
 
@@ -2589,7 +2589,7 @@ msgstr "Domain dihapus"
 msgid "Domain updated"
 msgstr "Domain diperbarui"
 
-#: packages/admin/src/components/LoginPage.tsx:332
+#: packages/admin/src/components/LoginPage.tsx:334
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "Belum punya akun? <0>Daftar</0>"
 
@@ -2819,9 +2819,9 @@ msgstr ""
 msgid "em1.…"
 msgstr "em1.…"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:61
+#: packages/admin/src/components/InviteAcceptPage.tsx:62
 #: packages/admin/src/components/Settings.tsx:116
-#: packages/admin/src/components/SignupPage.tsx:197
+#: packages/admin/src/components/SignupPage.tsx:198
 #: packages/admin/src/components/users/UserDetail.tsx:154
 msgid "Email"
 msgstr "Email"
@@ -2830,14 +2830,14 @@ msgstr "Email"
 msgid "Email (optional)"
 msgstr "Email (opsional)"
 
-#: packages/admin/src/components/LoginPage.tsx:126
-#: packages/admin/src/components/SignupPage.tsx:66
+#: packages/admin/src/components/LoginPage.tsx:127
+#: packages/admin/src/components/SignupPage.tsx:67
 #: packages/admin/src/components/users/InviteUserModal.tsx:152
 msgid "Email address"
 msgstr "Alamat email"
 
 #: packages/admin/src/components/SetupWizard.tsx:179
-#: packages/admin/src/components/SignupPage.tsx:49
+#: packages/admin/src/components/SignupPage.tsx:50
 msgid "Email is required"
 msgstr "Email wajib diisi"
 
@@ -2862,7 +2862,7 @@ msgstr "Pengaturan Email"
 msgid "Email verified"
 msgstr "Email terverifikasi"
 
-#: packages/admin/src/components/SignupPage.tsx:189
+#: packages/admin/src/components/SignupPage.tsx:190
 msgid "Email verified!"
 msgstr "Email terverifikasi!"
 
@@ -2950,7 +2950,7 @@ msgstr "Masukkan kode dari terminal Anda"
 msgid "Enter URL..."
 msgstr "Masukkan URL..."
 
-#: packages/admin/src/components/LoginPage.tsx:325
+#: packages/admin/src/components/LoginPage.tsx:327
 msgid "Enter your handle to sign in."
 msgstr "Masukkan handle Anda untuk masuk."
 
@@ -3503,8 +3503,8 @@ msgstr "Gagal menyimpan pengaturan"
 msgid "Failed to schedule"
 msgstr "Gagal menjadwalkan"
 
-#: packages/admin/src/components/LoginPage.tsx:70
-#: packages/admin/src/components/LoginPage.tsx:75
+#: packages/admin/src/components/LoginPage.tsx:71
+#: packages/admin/src/components/LoginPage.tsx:76
 msgid "Failed to send magic link"
 msgstr "Gagal mengirim tautan ajaib"
 
@@ -3517,7 +3517,7 @@ msgstr "Gagal mengirim tautan pemulihan"
 msgid "Failed to send test email"
 msgstr "Gagal mengirim email uji"
 
-#: packages/admin/src/components/SignupPage.tsx:349
+#: packages/admin/src/components/SignupPage.tsx:351
 msgid "Failed to send verification email"
 msgstr "Gagal mengirim email verifikasi"
 
@@ -3939,7 +3939,7 @@ msgstr "Ikon diburamkan karena audit gambar"
 msgid "ID"
 msgstr "ID"
 
-#: packages/admin/src/components/LoginPage.tsx:103
+#: packages/admin/src/components/LoginPage.tsx:104
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "Jika akun ada untuk <0>{email}</0>, kami telah mengirim tautan masuk."
 
@@ -4207,7 +4207,7 @@ msgstr "Memasang..."
 msgid "Integer"
 msgstr "Bilangan Bulat"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:151
+#: packages/admin/src/components/InviteAcceptPage.tsx:152
 msgid "Invalid invite link"
 msgstr "Tautan undangan tidak valid"
 
@@ -4215,15 +4215,15 @@ msgstr "Tautan undangan tidak valid"
 msgid "Invalid JSON"
 msgstr "JSON Tidak Valid"
 
-#: packages/admin/src/components/SignupPage.tsx:259
+#: packages/admin/src/components/SignupPage.tsx:260
 msgid "Invalid link"
 msgstr "Tautan tidak valid"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:239
+#: packages/admin/src/components/InviteAcceptPage.tsx:241
 msgid "Invite Error"
 msgstr "Kesalahan Undangan"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:149
+#: packages/admin/src/components/InviteAcceptPage.tsx:150
 msgid "Invite expired"
 msgstr "Undangan kedaluwarsa"
 
@@ -4264,7 +4264,7 @@ msgid "Item updated"
 msgstr "Item diperbarui"
 
 #: packages/admin/src/components/SetupWizard.tsx:213
-#: packages/admin/src/components/SignupPage.tsx:205
+#: packages/admin/src/components/SignupPage.tsx:206
 msgid "Jane Doe"
 msgstr "Jane Doe"
 
@@ -4332,7 +4332,7 @@ msgid "Label (Singular)"
 msgstr "Label (Tunggal)"
 
 #: packages/admin/src/components/editor/CodeBlockNode.tsx:162
-#: packages/admin/src/components/LoginPage.tsx:345
+#: packages/admin/src/components/LoginPage.tsx:347
 #: packages/admin/src/components/Settings.tsx:136
 #: packages/admin/src/components/Settings.tsx:141
 msgid "Language"
@@ -4413,7 +4413,7 @@ msgstr "Terang"
 msgid "Limit"
 msgstr "Batas"
 
-#: packages/admin/src/components/SignupPage.tsx:257
+#: packages/admin/src/components/SignupPage.tsx:258
 msgid "Link expired"
 msgstr "Tautan kedaluwarsa"
 
@@ -5201,7 +5201,7 @@ msgstr "Tidak ada judul di dokumen"
 msgid "No installable releases"
 msgstr "Tidak ada rilis yang dapat diinstal"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:191
+#: packages/admin/src/components/InviteAcceptPage.tsx:193
 msgid "No invite token provided"
 msgstr "Tidak ada token undangan diberikan"
 
@@ -5419,7 +5419,7 @@ msgstr "pada hostname kustom tidak dianggap aman, bahkan di loopback."
 msgid "Only authorize codes you recognize."
 msgstr "Hanya berikan otorisasi untuk kode yang Anda kenali."
 
-#: packages/admin/src/components/SignupPage.tsx:96
+#: packages/admin/src/components/SignupPage.tsx:97
 msgid "Only email addresses from allowed domains can sign up."
 msgstr "Hanya alamat email dari domain yang diizinkan yang dapat mendaftar."
 
@@ -5431,7 +5431,7 @@ msgstr "Hanya huruf kecil, angka, dan tanda hubung"
 msgid "Only the listed MIME types will be accepted for this field."
 msgstr "Hanya tipe MIME yang tercantum yang akan diterima untuk bidang ini."
 
-#: packages/admin/src/components/SignupPage.tsx:402
+#: packages/admin/src/components/SignupPage.tsx:404
 msgid "Oops!"
 msgstr "Maaf!"
 
@@ -5493,8 +5493,8 @@ msgstr "Atau klik untuk menelusuri. Menerima file .xml yang diekspor dari WordPr
 msgid "or connect by URL"
 msgstr "atau hubungkan dengan URL"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:96
-#: packages/admin/src/components/LoginPage.tsx:261
+#: packages/admin/src/components/InviteAcceptPage.tsx:97
+#: packages/admin/src/components/LoginPage.tsx:263
 #: packages/admin/src/components/SetupWizard.tsx:310
 msgid "Or continue with"
 msgstr "Atau lanjutkan dengan"
@@ -5601,8 +5601,8 @@ msgstr "Passkey ({0})"
 msgid "Passkeys are a secure, passwordless way to sign in to your account. You can register multiple passkeys for different devices."
 msgstr "Passkey adalah cara aman tanpa kata sandi untuk masuk ke akun Anda. Anda dapat mendaftarkan beberapa passkey untuk perangkat berbeda."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:76
-#: packages/admin/src/components/SignupPage.tsx:213
+#: packages/admin/src/components/InviteAcceptPage.tsx:77
+#: packages/admin/src/components/SignupPage.tsx:214
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
 msgstr "Passkey adalah cara aman tanpa kata sandi untuk masuk menggunakan biometrik, PIN, atau kunci keamanan perangkat Anda."
 
@@ -5694,7 +5694,7 @@ msgstr "Biasa"
 msgid "Plain text"
 msgstr "Teks biasa"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:165
+#: packages/admin/src/components/InviteAcceptPage.tsx:166
 msgid "Please ask your administrator to send a new invite."
 msgstr "Silakan minta administrator Anda mengirim undangan baru."
 
@@ -5702,7 +5702,7 @@ msgstr "Silakan minta administrator Anda mengirim undangan baru."
 msgid "Please enter a valid email"
 msgstr "Masukkan email yang valid"
 
-#: packages/admin/src/components/SignupPage.tsx:54
+#: packages/admin/src/components/SignupPage.tsx:55
 msgid "Please enter a valid email address"
 msgstr "Masukkan alamat email yang valid"
 
@@ -6174,7 +6174,7 @@ msgstr "Balas ke:"
 msgid "Repository"
 msgstr "Repositori"
 
-#: packages/admin/src/components/SignupPage.tsx:273
+#: packages/admin/src/components/SignupPage.tsx:274
 msgid "Request a new link"
 msgstr "Minta tautan baru"
 
@@ -6204,11 +6204,11 @@ msgstr "Wajib untuk aksesibilitas. Mendeskripsikan gambar untuk pembaca layar."
 msgid "Requires EmDash {0}"
 msgstr "Memerlukan EmDash {0}"
 
-#: packages/admin/src/components/SignupPage.tsx:154
+#: packages/admin/src/components/SignupPage.tsx:155
 msgid "Resend email"
 msgstr "Kirim ulang email"
 
-#: packages/admin/src/components/SignupPage.tsx:153
+#: packages/admin/src/components/SignupPage.tsx:154
 msgid "Resend in {resendCooldown}s"
 msgstr "Kirim ulang dalam {resendCooldown}d"
 
@@ -6844,7 +6844,7 @@ msgstr "Kirim email undangan ke anggota tim baru."
 msgid "Send Invite"
 msgstr "Kirim Undangan"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 msgid "Send magic link"
 msgstr "Kirim tautan ajaib"
 
@@ -6860,10 +6860,10 @@ msgstr "Kirim Uji"
 msgid "Send Test Email"
 msgstr "Kirim Email Uji"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 #: packages/admin/src/components/settings/EmailSettings.tsx:127
-#: packages/admin/src/components/SignupPage.tsx:88
-#: packages/admin/src/components/SignupPage.tsx:151
+#: packages/admin/src/components/SignupPage.tsx:89
+#: packages/admin/src/components/SignupPage.tsx:152
 #: packages/admin/src/components/users/InviteUserModal.tsx:201
 #: packages/admin/src/components/users/UserDetail.tsx:332
 msgid "Sending..."
@@ -6997,7 +6997,7 @@ msgstr "Tampilkan token"
 msgid "Shown when hovering over the image."
 msgstr "Ditampilkan saat kursor melayang di atas gambar."
 
-#: packages/admin/src/components/SignupPage.tsx:439
+#: packages/admin/src/components/SignupPage.tsx:441
 msgid "Sign in"
 msgstr "Masuk"
 
@@ -7005,32 +7005,32 @@ msgstr "Masuk"
 msgid "Sign In"
 msgstr "Masuk"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:161
-#: packages/admin/src/components/SignupPage.tsx:269
+#: packages/admin/src/components/InviteAcceptPage.tsx:162
+#: packages/admin/src/components/SignupPage.tsx:270
 msgid "Sign in instead"
 msgstr "Masuk saja"
 
-#: packages/admin/src/components/LoginPage.tsx:232
+#: packages/admin/src/components/LoginPage.tsx:234
 msgid "Sign in to your site"
 msgstr "Masuk ke situs Anda"
 
 #. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
 #. placeholder {0}: provider.label
-#: packages/admin/src/components/LoginPage.tsx:231
+#: packages/admin/src/components/LoginPage.tsx:233
 #: packages/admin/src/components/SetupWizard.tsx:264
 msgid "Sign in with {0}"
 msgstr "Masuk dengan {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:229
+#: packages/admin/src/components/LoginPage.tsx:231
 msgid "Sign in with email"
 msgstr "Masuk dengan email"
 
-#: packages/admin/src/components/LoginPage.tsx:290
+#: packages/admin/src/components/LoginPage.tsx:292
 msgid "Sign in with email link"
 msgstr "Masuk dengan tautan email"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:252
+#: packages/admin/src/components/LoginPage.tsx:254
 msgid "Sign in with Passkey"
 msgstr "Masuk dengan Passkey"
 
@@ -7156,8 +7156,8 @@ msgstr "Profil Sosial"
 msgid "Some content types cannot be imported"
 msgstr "Beberapa tipe konten tidak dapat diimpor"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:154
-#: packages/admin/src/components/SignupPage.tsx:262
+#: packages/admin/src/components/InviteAcceptPage.tsx:155
+#: packages/admin/src/components/SignupPage.tsx:263
 msgid "Something went wrong"
 msgstr "Terjadi kesalahan"
 
@@ -7389,8 +7389,8 @@ msgstr "Tabel berikut berisi konten tetapi tidak terdaftar sebagai koleksi. Daft
 msgid "The invited user will have this role once they complete registration."
 msgstr "Pengguna yang diundang akan memiliki peran ini setelah menyelesaikan pendaftaran."
 
-#: packages/admin/src/components/LoginPage.tsx:113
-#: packages/admin/src/components/SignupPage.tsx:139
+#: packages/admin/src/components/LoginPage.tsx:114
+#: packages/admin/src/components/SignupPage.tsx:140
 msgid "The link will expire in 15 minutes."
 msgstr "Tautan akan kedaluwarsa dalam 15 menit."
 
@@ -8075,7 +8075,7 @@ msgstr "Gunakan [param] atau [...rest] di jalur untuk pencocokan pola."
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr "Gunakan autentikasi biometrik, kunci keamanan, atau PIN perangkat Anda untuk masuk."
 
-#: packages/admin/src/components/LoginPage.tsx:326
+#: packages/admin/src/components/LoginPage.tsx:328
 msgid "Use your registered passkey to sign in securely."
 msgstr "Gunakan passkey terdaftar Anda untuk masuk dengan aman."
 
@@ -8165,11 +8165,11 @@ msgstr "Penerbit terverifikasi. Seorang pelabel ({verifiedLabeller}) telah mengo
 msgid "Verified publisher. A labeller has confirmed this publisher's identity."
 msgstr "Penerbit terverifikasi. Seorang pelabel telah mengonfirmasi identitas penerbit ini."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:226
+#: packages/admin/src/components/InviteAcceptPage.tsx:228
 msgid "Verifying your invite..."
 msgstr "Memverifikasi undangan Anda..."
 
-#: packages/admin/src/components/SignupPage.tsx:386
+#: packages/admin/src/components/SignupPage.tsx:388
 msgid "Verifying your link..."
 msgstr "Memverifikasi tautan Anda..."
 
@@ -8251,11 +8251,11 @@ msgstr "Kami tidak dapat memverifikasi identitas penerbit ini"
 msgid "We'll check what import options are available for your site."
 msgstr "Kami akan memeriksa opsi impor apa yang tersedia untuk situs Anda."
 
-#: packages/admin/src/components/LoginPage.tsx:323
+#: packages/admin/src/components/LoginPage.tsx:325
 msgid "We'll send you a link to sign in without a password."
 msgstr "Kami akan mengirim tautan untuk masuk tanpa kata sandi."
 
-#: packages/admin/src/components/SignupPage.tsx:132
+#: packages/admin/src/components/SignupPage.tsx:133
 msgid "We've sent a verification link to"
 msgstr "Kami telah mengirim tautan verifikasi ke"
 
@@ -8491,7 +8491,7 @@ msgid "You won't be able to use this passkey to sign in anymore. This action can
 msgstr "Anda tidak akan dapat menggunakan passkey ini untuk masuk lagi. Tindakan ini tidak dapat dibatalkan."
 
 #. placeholder {0}: inviteData.roleName
-#: packages/admin/src/components/InviteAcceptPage.tsx:54
+#: packages/admin/src/components/InviteAcceptPage.tsx:55
 msgid "You'll be joining as <0>{0}</0>"
 msgstr "Anda akan bergabung sebagai <0>{0}</0>"
 
@@ -8503,7 +8503,7 @@ msgstr "Anda akan diminta menggunakan autentikasi biometrik, kunci keamanan, ata
 msgid "You'll be redirected to WordPress to authorize the connection."
 msgstr "Anda akan dialihkan ke WordPress untuk mengotorisasi koneksi."
 
-#: packages/admin/src/components/SignupPage.tsx:191
+#: packages/admin/src/components/SignupPage.tsx:192
 msgid "You'll be signing up as"
 msgstr "Anda akan mendaftar sebagai"
 
@@ -8511,11 +8511,11 @@ msgstr "Anda akan mendaftar sebagai"
 msgid "You're signed in via Cloudflare Access"
 msgstr "Anda masuk melalui Cloudflare Access"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:52
+#: packages/admin/src/components/InviteAcceptPage.tsx:53
 msgid "You've been invited!"
 msgstr "Anda telah diundang!"
 
-#: packages/admin/src/components/SignupPage.tsx:70
+#: packages/admin/src/components/SignupPage.tsx:71
 msgid "you@company.com"
 msgstr "anda@perusahaan.com"
 
@@ -8567,8 +8567,8 @@ msgstr "Pustaka media Anda kosong"
 msgid "Your Name"
 msgstr "Nama Anda"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:64
-#: packages/admin/src/components/SignupPage.tsx:201
+#: packages/admin/src/components/InviteAcceptPage.tsx:65
+#: packages/admin/src/components/SignupPage.tsx:202
 msgid "Your name (optional)"
 msgstr "Nama Anda (opsional)"
 

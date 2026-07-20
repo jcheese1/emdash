@@ -545,7 +545,7 @@ msgstr "Kabul Et ve Yükle"
 msgid "Accept & Update"
 msgstr "Kabul Et ve Güncelle"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:238
+#: packages/admin/src/components/InviteAcceptPage.tsx:240
 msgid "Accept Invite"
 msgstr "Daveti Kabul Et"
 
@@ -566,11 +566,11 @@ msgstr "Medya kitaplığınıza erişin"
 msgid "Account"
 msgstr "Hesap"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:153
+#: packages/admin/src/components/InviteAcceptPage.tsx:154
 msgid "Account already exists"
 msgstr "Hesap zaten mevcut"
 
-#: packages/admin/src/components/SignupPage.tsx:261
+#: packages/admin/src/components/SignupPage.tsx:262
 msgid "Account exists"
 msgstr "Hesap mevcut"
 
@@ -862,7 +862,7 @@ msgstr "İzin Verilen Alanlar"
 msgid "Allowed types"
 msgstr "İzin verilen türler"
 
-#: packages/admin/src/components/SignupPage.tsx:437
+#: packages/admin/src/components/SignupPage.tsx:439
 msgid "Already have an account?"
 msgstr "Zaten bir hesabınız var mı?"
 
@@ -936,7 +936,7 @@ msgstr "Bir hata oluştu"
 msgid "An unexpected error occurred."
 msgstr "Beklenmeyen bir hata oluştu."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:249
+#: packages/admin/src/components/InviteAcceptPage.tsx:251
 msgid "An unknown error occurred"
 msgstr "Bilinmeyen bir hata oluştu"
 
@@ -1053,7 +1053,7 @@ msgstr "Ses"
 msgid "Authentication error: {0}"
 msgstr "Kimlik doğrulama hatası: {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:195
+#: packages/admin/src/components/LoginPage.tsx:197
 msgid "Authentication error: {error}"
 msgstr "Kimlik doğrulama hatası: {error}"
 
@@ -1166,11 +1166,11 @@ msgstr "{collectionLabel} listesine geri dön"
 msgid "Back to Content Types"
 msgstr "İçerik Türlerine Geri Dön"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:171
-#: packages/admin/src/components/LoginPage.tsx:117
-#: packages/admin/src/components/LoginPage.tsx:153
-#: packages/admin/src/components/LoginPage.tsx:311
-#: packages/admin/src/components/SignupPage.tsx:281
+#: packages/admin/src/components/InviteAcceptPage.tsx:172
+#: packages/admin/src/components/LoginPage.tsx:118
+#: packages/admin/src/components/LoginPage.tsx:154
+#: packages/admin/src/components/LoginPage.tsx:313
+#: packages/admin/src/components/SignupPage.tsx:282
 msgid "Back to login"
 msgstr "Girişe geri dön"
 
@@ -1478,9 +1478,9 @@ msgstr "Güncellemeleri kontrol et"
 msgid "Check Site"
 msgstr "Siteyi Kontrol Et"
 
-#: packages/admin/src/components/LoginPage.tsx:101
-#: packages/admin/src/components/SignupPage.tsx:130
-#: packages/admin/src/components/SignupPage.tsx:400
+#: packages/admin/src/components/LoginPage.tsx:102
+#: packages/admin/src/components/SignupPage.tsx:131
+#: packages/admin/src/components/SignupPage.tsx:402
 msgid "Check your email"
 msgstr "E-postanızı kontrol edin"
 
@@ -1520,11 +1520,11 @@ msgstr "Filtreleri temizle"
 msgid "Clear search"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:138
+#: packages/admin/src/components/SignupPage.tsx:139
 msgid "Click the link in the email to continue setting up your account."
 msgstr "Hesabınızı kurmaya devam etmek için e-postadaki bağlantıya tıklayın."
 
-#: packages/admin/src/components/LoginPage.tsx:112
+#: packages/admin/src/components/LoginPage.tsx:113
 msgid "Click the link in the email to sign in."
 msgstr "Oturum açmak için e-postadaki bağlantıya tıklayın."
 
@@ -1664,7 +1664,7 @@ msgstr "Yorumlar"
 msgid "Comments from logged-in CMS users are approved automatically"
 msgstr "Oturum açmış CMS kullanıcılarının yorumları otomatik olarak onaylanır"
 
-#: packages/admin/src/components/SignupPage.tsx:401
+#: packages/admin/src/components/SignupPage.tsx:403
 msgid "Complete signup"
 msgstr "Kaydı tamamla"
 
@@ -1785,7 +1785,7 @@ msgstr "İçerik zaten mevcut olduğundan atlandı"
 msgid "Content Write"
 msgstr "İçerik Yazma"
 
-#: packages/admin/src/components/SignupPage.tsx:91
+#: packages/admin/src/components/SignupPage.tsx:92
 msgid "Continue"
 msgstr "Devam et"
 
@@ -1903,12 +1903,12 @@ msgstr "Yeni bir {0} oluşturun"
 msgid "Create a numbered list"
 msgstr "Numaralandırılmış bir liste oluşturun"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:83
-#: packages/admin/src/components/SignupPage.tsx:220
+#: packages/admin/src/components/InviteAcceptPage.tsx:84
+#: packages/admin/src/components/SignupPage.tsx:221
 msgid "Create Account"
 msgstr "Hesap Oluştur"
 
-#: packages/admin/src/components/SignupPage.tsx:399
+#: packages/admin/src/components/SignupPage.tsx:401
 msgid "Create an account"
 msgstr "Bir hesap oluşturun"
 
@@ -2008,8 +2008,8 @@ msgstr "İlkini oluştur"
 msgid "Create your first reusable content section to get started."
 msgstr "Başlamak için ilk yeniden kullanılabilir içerik bölümünüzü oluşturun."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:74
-#: packages/admin/src/components/SignupPage.tsx:211
+#: packages/admin/src/components/InviteAcceptPage.tsx:75
+#: packages/admin/src/components/SignupPage.tsx:212
 msgid "Create your passkey"
 msgstr "Geçiş anahtarınızı oluşturun"
 
@@ -2442,7 +2442,7 @@ msgstr "Cihaza bağlı"
 msgid "Device-bound passkey"
 msgstr "Cihaza bağlı geçiş anahtarı"
 
-#: packages/admin/src/components/SignupPage.tsx:143
+#: packages/admin/src/components/SignupPage.tsx:144
 msgid "Didn't receive the email?"
 msgstr "E-postayı almadınız mı?"
 
@@ -2589,7 +2589,7 @@ msgstr "Alan adı kaldırıldı"
 msgid "Domain updated"
 msgstr "Alan adı güncellendi"
 
-#: packages/admin/src/components/LoginPage.tsx:332
+#: packages/admin/src/components/LoginPage.tsx:334
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "Hesabınız yok mu? <0>Sign up</0>"
 
@@ -2819,9 +2819,9 @@ msgstr ""
 msgid "em1.…"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:61
+#: packages/admin/src/components/InviteAcceptPage.tsx:62
 #: packages/admin/src/components/Settings.tsx:116
-#: packages/admin/src/components/SignupPage.tsx:197
+#: packages/admin/src/components/SignupPage.tsx:198
 #: packages/admin/src/components/users/UserDetail.tsx:154
 msgid "Email"
 msgstr "E-posta"
@@ -2830,14 +2830,14 @@ msgstr "E-posta"
 msgid "Email (optional)"
 msgstr "E-posta (isteğe bağlı)"
 
-#: packages/admin/src/components/LoginPage.tsx:126
-#: packages/admin/src/components/SignupPage.tsx:66
+#: packages/admin/src/components/LoginPage.tsx:127
+#: packages/admin/src/components/SignupPage.tsx:67
 #: packages/admin/src/components/users/InviteUserModal.tsx:152
 msgid "Email address"
 msgstr "E-posta adresi"
 
 #: packages/admin/src/components/SetupWizard.tsx:179
-#: packages/admin/src/components/SignupPage.tsx:49
+#: packages/admin/src/components/SignupPage.tsx:50
 msgid "Email is required"
 msgstr "E-posta gerekli"
 
@@ -2862,7 +2862,7 @@ msgstr "E-posta Ayarları"
 msgid "Email verified"
 msgstr "E-posta doğrulandı"
 
-#: packages/admin/src/components/SignupPage.tsx:189
+#: packages/admin/src/components/SignupPage.tsx:190
 msgid "Email verified!"
 msgstr "E-posta doğrulandı!"
 
@@ -2950,7 +2950,7 @@ msgstr "Kodu terminalinizden girin"
 msgid "Enter URL..."
 msgstr "URL'yi girin..."
 
-#: packages/admin/src/components/LoginPage.tsx:325
+#: packages/admin/src/components/LoginPage.tsx:327
 msgid "Enter your handle to sign in."
 msgstr "Oturum açmak için kullanıcı adınızı girin."
 
@@ -3503,8 +3503,8 @@ msgstr "Ayarlar kaydedilemedi"
 msgid "Failed to schedule"
 msgstr "Planlama başarısız oldu"
 
-#: packages/admin/src/components/LoginPage.tsx:70
-#: packages/admin/src/components/LoginPage.tsx:75
+#: packages/admin/src/components/LoginPage.tsx:71
+#: packages/admin/src/components/LoginPage.tsx:76
 msgid "Failed to send magic link"
 msgstr "Sihirli bağlantı gönderilemedi"
 
@@ -3517,7 +3517,7 @@ msgstr "Kurtarma bağlantısı gönderilemedi"
 msgid "Failed to send test email"
 msgstr "Test e-postası gönderilemedi"
 
-#: packages/admin/src/components/SignupPage.tsx:349
+#: packages/admin/src/components/SignupPage.tsx:351
 msgid "Failed to send verification email"
 msgstr "Doğrulama e-postası gönderilemedi"
 
@@ -3939,7 +3939,7 @@ msgstr "Resim denetimi nedeniyle simge bulanıklaştı"
 msgid "ID"
 msgstr "İD"
 
-#: packages/admin/src/components/LoginPage.tsx:103
+#: packages/admin/src/components/LoginPage.tsx:104
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "<0>{email}</0> için bir hesap mevcutsa, bir oturum açma bağlantısı gönderdik."
 
@@ -4207,7 +4207,7 @@ msgstr "Yükleniyor..."
 msgid "Integer"
 msgstr "Tamsayı"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:151
+#: packages/admin/src/components/InviteAcceptPage.tsx:152
 msgid "Invalid invite link"
 msgstr "Geçersiz davet bağlantısı"
 
@@ -4215,15 +4215,15 @@ msgstr "Geçersiz davet bağlantısı"
 msgid "Invalid JSON"
 msgstr "Geçersiz JSON"
 
-#: packages/admin/src/components/SignupPage.tsx:259
+#: packages/admin/src/components/SignupPage.tsx:260
 msgid "Invalid link"
 msgstr "Geçersiz bağlantı"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:239
+#: packages/admin/src/components/InviteAcceptPage.tsx:241
 msgid "Invite Error"
 msgstr "Davet Hatası"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:149
+#: packages/admin/src/components/InviteAcceptPage.tsx:150
 msgid "Invite expired"
 msgstr "Davetin süresi doldu"
 
@@ -4264,7 +4264,7 @@ msgid "Item updated"
 msgstr "Öğe güncellendi"
 
 #: packages/admin/src/components/SetupWizard.tsx:213
-#: packages/admin/src/components/SignupPage.tsx:205
+#: packages/admin/src/components/SignupPage.tsx:206
 msgid "Jane Doe"
 msgstr "Jane Doe"
 
@@ -4332,7 +4332,7 @@ msgid "Label (Singular)"
 msgstr "Etiket (Tekil)"
 
 #: packages/admin/src/components/editor/CodeBlockNode.tsx:162
-#: packages/admin/src/components/LoginPage.tsx:345
+#: packages/admin/src/components/LoginPage.tsx:347
 #: packages/admin/src/components/Settings.tsx:136
 #: packages/admin/src/components/Settings.tsx:141
 msgid "Language"
@@ -4413,7 +4413,7 @@ msgstr "Açık"
 msgid "Limit"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:257
+#: packages/admin/src/components/SignupPage.tsx:258
 msgid "Link expired"
 msgstr "Bağlantının süresi doldu"
 
@@ -5201,7 +5201,7 @@ msgstr "Belgede başlık yok"
 msgid "No installable releases"
 msgstr "Yüklenebilir sürüm yok"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:191
+#: packages/admin/src/components/InviteAcceptPage.tsx:193
 msgid "No invite token provided"
 msgstr "Davet belirteci sağlanmadı"
 
@@ -5419,7 +5419,7 @@ msgstr "özel bir ana bilgisayar adında, geri döngüde bile güvenli olarak de
 msgid "Only authorize codes you recognize."
 msgstr "Yalnızca tanıdığınız kodları yetkilendirin."
 
-#: packages/admin/src/components/SignupPage.tsx:96
+#: packages/admin/src/components/SignupPage.tsx:97
 msgid "Only email addresses from allowed domains can sign up."
 msgstr "Yalnızca izin verilen alanlardaki e-posta adresleri kaydolabilir."
 
@@ -5431,7 +5431,7 @@ msgstr "Yalnızca küçük harfler, sayılar ve kısa çizgiler"
 msgid "Only the listed MIME types will be accepted for this field."
 msgstr "Bu alan için yalnızca listelenen MIME türleri kabul edilecektir."
 
-#: packages/admin/src/components/SignupPage.tsx:402
+#: packages/admin/src/components/SignupPage.tsx:404
 msgid "Oops!"
 msgstr "Hata!"
 
@@ -5493,8 +5493,8 @@ msgstr "Veya göz atmak için tıklayın. WordPress'ten dışa aktarılan.xml do
 msgid "or connect by URL"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:96
-#: packages/admin/src/components/LoginPage.tsx:261
+#: packages/admin/src/components/InviteAcceptPage.tsx:97
+#: packages/admin/src/components/LoginPage.tsx:263
 #: packages/admin/src/components/SetupWizard.tsx:310
 msgid "Or continue with"
 msgstr "Veya şununla devam edin"
@@ -5601,8 +5601,8 @@ msgstr "Geçiş anahtarları ({0})"
 msgid "Passkeys are a secure, passwordless way to sign in to your account. You can register multiple passkeys for different devices."
 msgstr "Geçiş anahtarları, hesabınızda oturum açmanın güvenli ve parolasız bir yoludur. Farklı cihazlar için birden fazla geçiş anahtarı kaydedebilirsiniz."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:76
-#: packages/admin/src/components/SignupPage.tsx:213
+#: packages/admin/src/components/InviteAcceptPage.tsx:77
+#: packages/admin/src/components/SignupPage.tsx:214
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
 msgstr "Geçiş anahtarları, cihazınızın biyometrisini, PIN'ini veya güvenlik anahtarını kullanarak oturum açmanın güvenli, parolasız bir yoludur."
 
@@ -5694,7 +5694,7 @@ msgstr "Düz"
 msgid "Plain text"
 msgstr "Düz metin"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:165
+#: packages/admin/src/components/InviteAcceptPage.tsx:166
 msgid "Please ask your administrator to send a new invite."
 msgstr "Lütfen yöneticinizden yeni bir davet göndermesini isteyin."
 
@@ -5702,7 +5702,7 @@ msgstr "Lütfen yöneticinizden yeni bir davet göndermesini isteyin."
 msgid "Please enter a valid email"
 msgstr "Lütfen geçerli bir e-posta girin"
 
-#: packages/admin/src/components/SignupPage.tsx:54
+#: packages/admin/src/components/SignupPage.tsx:55
 msgid "Please enter a valid email address"
 msgstr "Geçerli bir e"
 
@@ -6174,7 +6174,7 @@ msgstr "Yanıtla:"
 msgid "Repository"
 msgstr "Depo"
 
-#: packages/admin/src/components/SignupPage.tsx:273
+#: packages/admin/src/components/SignupPage.tsx:274
 msgid "Request a new link"
 msgstr "Yeni bir bağlantı isteyin"
 
@@ -6204,11 +6204,11 @@ msgstr "Erişilebilirlik için gereklidir. Ekran okuyucular için görüntüyü 
 msgid "Requires EmDash {0}"
 msgstr "EmDash gerektirir {0}"
 
-#: packages/admin/src/components/SignupPage.tsx:154
+#: packages/admin/src/components/SignupPage.tsx:155
 msgid "Resend email"
 msgstr "E-postayı yeniden gönder"
 
-#: packages/admin/src/components/SignupPage.tsx:153
+#: packages/admin/src/components/SignupPage.tsx:154
 msgid "Resend in {resendCooldown}s"
 msgstr "{resendCooldown}'lerde yeniden gönder"
 
@@ -6844,7 +6844,7 @@ msgstr "Yeni bir ekip üyesine davet e-postası gönderin."
 msgid "Send Invite"
 msgstr "Davet Gönder"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 msgid "Send magic link"
 msgstr "Sihirli bağlantı gönder"
 
@@ -6860,10 +6860,10 @@ msgstr "Test Gönder"
 msgid "Send Test Email"
 msgstr "Test E-postası Gönder"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 #: packages/admin/src/components/settings/EmailSettings.tsx:127
-#: packages/admin/src/components/SignupPage.tsx:88
-#: packages/admin/src/components/SignupPage.tsx:151
+#: packages/admin/src/components/SignupPage.tsx:89
+#: packages/admin/src/components/SignupPage.tsx:152
 #: packages/admin/src/components/users/InviteUserModal.tsx:201
 #: packages/admin/src/components/users/UserDetail.tsx:332
 msgid "Sending..."
@@ -6997,7 +6997,7 @@ msgstr "Belirteci göster"
 msgid "Shown when hovering over the image."
 msgstr "Resmin üzerine gelindiğinde gösterilir."
 
-#: packages/admin/src/components/SignupPage.tsx:439
+#: packages/admin/src/components/SignupPage.tsx:441
 msgid "Sign in"
 msgstr "Oturum aç"
 
@@ -7005,32 +7005,32 @@ msgstr "Oturum aç"
 msgid "Sign In"
 msgstr "Oturum aç"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:161
-#: packages/admin/src/components/SignupPage.tsx:269
+#: packages/admin/src/components/InviteAcceptPage.tsx:162
+#: packages/admin/src/components/SignupPage.tsx:270
 msgid "Sign in instead"
 msgstr "Bunun yerine oturum açın"
 
-#: packages/admin/src/components/LoginPage.tsx:232
+#: packages/admin/src/components/LoginPage.tsx:234
 msgid "Sign in to your site"
 msgstr "Sitenizde oturum açın"
 
 #. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
 #. placeholder {0}: provider.label
-#: packages/admin/src/components/LoginPage.tsx:231
+#: packages/admin/src/components/LoginPage.tsx:233
 #: packages/admin/src/components/SetupWizard.tsx:264
 msgid "Sign in with {0}"
 msgstr "{0} ile oturum açın"
 
-#: packages/admin/src/components/LoginPage.tsx:229
+#: packages/admin/src/components/LoginPage.tsx:231
 msgid "Sign in with email"
 msgstr "E-postayla oturum açın"
 
-#: packages/admin/src/components/LoginPage.tsx:290
+#: packages/admin/src/components/LoginPage.tsx:292
 msgid "Sign in with email link"
 msgstr "E-posta bağlantısıyla oturum açın"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:252
+#: packages/admin/src/components/LoginPage.tsx:254
 msgid "Sign in with Passkey"
 msgstr "Geçiş Anahtarı ile oturum açın"
 
@@ -7156,8 +7156,8 @@ msgstr "Sosyal Profiller"
 msgid "Some content types cannot be imported"
 msgstr "Bazı içerik türleri içe aktarılamaz"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:154
-#: packages/admin/src/components/SignupPage.tsx:262
+#: packages/admin/src/components/InviteAcceptPage.tsx:155
+#: packages/admin/src/components/SignupPage.tsx:263
 msgid "Something went wrong"
 msgstr "Bir şeyler ters gitti"
 
@@ -7389,8 +7389,8 @@ msgstr "Aşağıdaki tablolarda içerik bulunmaktadır ancak koleksiyon olarak k
 msgid "The invited user will have this role once they complete registration."
 msgstr "Davet edilen kullanıcı, kaydı tamamladıktan sonra bu role sahip olacaktır."
 
-#: packages/admin/src/components/LoginPage.tsx:113
-#: packages/admin/src/components/SignupPage.tsx:139
+#: packages/admin/src/components/LoginPage.tsx:114
+#: packages/admin/src/components/SignupPage.tsx:140
 msgid "The link will expire in 15 minutes."
 msgstr "Bağlantının süresi 15 dakika içinde dolacaktır."
 
@@ -8075,7 +8075,7 @@ msgstr "Desen eşleştirme için yollarda [param] veya [...rest] kullanın."
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr "Oturum açmak için cihazınızın biyometrik kimlik doğrulamasını, güvenlik anahtarını veya PIN'ini kullanın."
 
-#: packages/admin/src/components/LoginPage.tsx:326
+#: packages/admin/src/components/LoginPage.tsx:328
 msgid "Use your registered passkey to sign in securely."
 msgstr "Güvenli oturum açmak için kayıtlı geçiş anahtarınızı kullanın."
 
@@ -8165,11 +8165,11 @@ msgstr "Doğrulanmış yayıncı. Bir etiketleyici ({verifiedLabeller}) bu yayı
 msgid "Verified publisher. A labeller has confirmed this publisher's identity."
 msgstr "Doğrulanmış yayıncı. Bir etiketleyici bu yayıncının kimliğini doğruladı."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:226
+#: packages/admin/src/components/InviteAcceptPage.tsx:228
 msgid "Verifying your invite..."
 msgstr "Davetiniz doğrulanıyor..."
 
-#: packages/admin/src/components/SignupPage.tsx:386
+#: packages/admin/src/components/SignupPage.tsx:388
 msgid "Verifying your link..."
 msgstr "Bağlantınız doğrulanıyor..."
 
@@ -8251,11 +8251,11 @@ msgstr "Bu yayıncının kimliğini doğrulayamadık"
 msgid "We'll check what import options are available for your site."
 msgstr "Siteniz için hangi içe aktarma seçeneklerinin mevcut olduğunu kontrol edeceğiz."
 
-#: packages/admin/src/components/LoginPage.tsx:323
+#: packages/admin/src/components/LoginPage.tsx:325
 msgid "We'll send you a link to sign in without a password."
 msgstr "Şifre olmadan oturum açabilmeniz için size bir bağlantı göndereceğiz."
 
-#: packages/admin/src/components/SignupPage.tsx:132
+#: packages/admin/src/components/SignupPage.tsx:133
 msgid "We've sent a verification link to"
 msgstr "Şuraya bir doğrulama bağlantısı gönderdik:"
 
@@ -8491,7 +8491,7 @@ msgid "You won't be able to use this passkey to sign in anymore. This action can
 msgstr "Bu geçiş anahtarını artık oturum açmak için kullanamayacaksınız. Bu işlem geri alınamaz."
 
 #. placeholder {0}: inviteData.roleName
-#: packages/admin/src/components/InviteAcceptPage.tsx:54
+#: packages/admin/src/components/InviteAcceptPage.tsx:55
 msgid "You'll be joining as <0>{0}</0>"
 msgstr "<0>{0}</0> olarak katılacaksınız"
 
@@ -8503,7 +8503,7 @@ msgstr "Cihazınızın biyometrik kimlik doğrulamasını, güvenlik anahtarın�
 msgid "You'll be redirected to WordPress to authorize the connection."
 msgstr "Bağlantıyı yetkilendirmek için WordPress'e yönlendirileceksiniz."
 
-#: packages/admin/src/components/SignupPage.tsx:191
+#: packages/admin/src/components/SignupPage.tsx:192
 msgid "You'll be signing up as"
 msgstr "Şu şekilde kaydolacaksınız:"
 
@@ -8511,11 +8511,11 @@ msgstr "Şu şekilde kaydolacaksınız:"
 msgid "You're signed in via Cloudflare Access"
 msgstr "Cloudflare Erişimi aracılığıyla oturum açtınız"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:52
+#: packages/admin/src/components/InviteAcceptPage.tsx:53
 msgid "You've been invited!"
 msgstr "Davet edildiniz!"
 
-#: packages/admin/src/components/SignupPage.tsx:70
+#: packages/admin/src/components/SignupPage.tsx:71
 msgid "you@company.com"
 msgstr "sen@şirket.com"
 
@@ -8567,8 +8567,8 @@ msgstr ""
 msgid "Your Name"
 msgstr "Adınız"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:64
-#: packages/admin/src/components/SignupPage.tsx:201
+#: packages/admin/src/components/InviteAcceptPage.tsx:65
+#: packages/admin/src/components/SignupPage.tsx:202
 msgid "Your name (optional)"
 msgstr "Adınız (isteğe bağlı)"
 

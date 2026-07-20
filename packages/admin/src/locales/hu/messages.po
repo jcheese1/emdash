@@ -545,7 +545,7 @@ msgstr "Elfogadás és telepítés"
 msgid "Accept & Update"
 msgstr "Elfogadás és frissítés"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:238
+#: packages/admin/src/components/InviteAcceptPage.tsx:240
 msgid "Accept Invite"
 msgstr "Meghívás elfogadása"
 
@@ -566,11 +566,11 @@ msgstr "Médiatár elérése"
 msgid "Account"
 msgstr "Fiók"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:153
+#: packages/admin/src/components/InviteAcceptPage.tsx:154
 msgid "Account already exists"
 msgstr "A fiók már létezik"
 
-#: packages/admin/src/components/SignupPage.tsx:261
+#: packages/admin/src/components/SignupPage.tsx:262
 msgid "Account exists"
 msgstr "A fiók létezik"
 
@@ -862,7 +862,7 @@ msgstr "Engedélyezett domainek"
 msgid "Allowed types"
 msgstr "Engedélyezett típusok"
 
-#: packages/admin/src/components/SignupPage.tsx:437
+#: packages/admin/src/components/SignupPage.tsx:439
 msgid "Already have an account?"
 msgstr "Már van fiókod?"
 
@@ -936,7 +936,7 @@ msgstr "Hiba történt"
 msgid "An unexpected error occurred."
 msgstr "Váratlan hiba történt."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:249
+#: packages/admin/src/components/InviteAcceptPage.tsx:251
 msgid "An unknown error occurred"
 msgstr "Ismeretlen hiba történt"
 
@@ -1053,7 +1053,7 @@ msgstr "Hang"
 msgid "Authentication error: {0}"
 msgstr "Hitelesítési hiba: {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:195
+#: packages/admin/src/components/LoginPage.tsx:197
 msgid "Authentication error: {error}"
 msgstr "Hitelesítési hiba: {error}"
 
@@ -1166,11 +1166,11 @@ msgstr "Vissza a(z) {collectionLabel} listához"
 msgid "Back to Content Types"
 msgstr "Vissza a tartalomtípusokhoz"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:171
-#: packages/admin/src/components/LoginPage.tsx:117
-#: packages/admin/src/components/LoginPage.tsx:153
-#: packages/admin/src/components/LoginPage.tsx:311
-#: packages/admin/src/components/SignupPage.tsx:281
+#: packages/admin/src/components/InviteAcceptPage.tsx:172
+#: packages/admin/src/components/LoginPage.tsx:118
+#: packages/admin/src/components/LoginPage.tsx:154
+#: packages/admin/src/components/LoginPage.tsx:313
+#: packages/admin/src/components/SignupPage.tsx:282
 msgid "Back to login"
 msgstr "Vissza a bejelentkezéshez"
 
@@ -1478,9 +1478,9 @@ msgstr "Frissítések keresése"
 msgid "Check Site"
 msgstr "Weboldal ellenőrzése"
 
-#: packages/admin/src/components/LoginPage.tsx:101
-#: packages/admin/src/components/SignupPage.tsx:130
-#: packages/admin/src/components/SignupPage.tsx:400
+#: packages/admin/src/components/LoginPage.tsx:102
+#: packages/admin/src/components/SignupPage.tsx:131
+#: packages/admin/src/components/SignupPage.tsx:402
 msgid "Check your email"
 msgstr "Ellenőrizd az e-mailjeidet"
 
@@ -1520,11 +1520,11 @@ msgstr "Szűrők törlése"
 msgid "Clear search"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:138
+#: packages/admin/src/components/SignupPage.tsx:139
 msgid "Click the link in the email to continue setting up your account."
 msgstr "A fiók beállításának folytatásához kattints az e-mailben lévő linkre."
 
-#: packages/admin/src/components/LoginPage.tsx:112
+#: packages/admin/src/components/LoginPage.tsx:113
 msgid "Click the link in the email to sign in."
 msgstr "A bejelentkezéshez kattints az e-mailben lévő linkre."
 
@@ -1664,7 +1664,7 @@ msgstr "Hozzászólások"
 msgid "Comments from logged-in CMS users are approved automatically"
 msgstr "A bejelentkezett CMS-felhasználók hozzászólásai automatikusan jóváhagyásra kerülnek"
 
-#: packages/admin/src/components/SignupPage.tsx:401
+#: packages/admin/src/components/SignupPage.tsx:403
 msgid "Complete signup"
 msgstr "Regisztráció befejezése"
 
@@ -1785,7 +1785,7 @@ msgstr "A tartalom kihagyva, mert már létezik"
 msgid "Content Write"
 msgstr "Tartalom írása"
 
-#: packages/admin/src/components/SignupPage.tsx:91
+#: packages/admin/src/components/SignupPage.tsx:92
 msgid "Continue"
 msgstr "Folytatás"
 
@@ -1903,12 +1903,12 @@ msgstr "Új {0} létrehozása"
 msgid "Create a numbered list"
 msgstr "Számozott lista létrehozása"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:83
-#: packages/admin/src/components/SignupPage.tsx:220
+#: packages/admin/src/components/InviteAcceptPage.tsx:84
+#: packages/admin/src/components/SignupPage.tsx:221
 msgid "Create Account"
 msgstr "Fiók létrehozása"
 
-#: packages/admin/src/components/SignupPage.tsx:399
+#: packages/admin/src/components/SignupPage.tsx:401
 msgid "Create an account"
 msgstr "Fiók létrehozása"
 
@@ -2008,8 +2008,8 @@ msgstr "Hozd létre az elsőt"
 msgid "Create your first reusable content section to get started."
 msgstr "Hozd létre az első újrahasznosítható tartalomszakaszt a kezdéshez."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:74
-#: packages/admin/src/components/SignupPage.tsx:211
+#: packages/admin/src/components/InviteAcceptPage.tsx:75
+#: packages/admin/src/components/SignupPage.tsx:212
 msgid "Create your passkey"
 msgstr "Passkey létrehozása"
 
@@ -2442,7 +2442,7 @@ msgstr "Eszközhöz kötött"
 msgid "Device-bound passkey"
 msgstr "Eszközhöz kötött passkey"
 
-#: packages/admin/src/components/SignupPage.tsx:143
+#: packages/admin/src/components/SignupPage.tsx:144
 msgid "Didn't receive the email?"
 msgstr "Nem kaptad meg az e-mailt?"
 
@@ -2589,7 +2589,7 @@ msgstr "Domain eltávolítva"
 msgid "Domain updated"
 msgstr "Domain frissítve"
 
-#: packages/admin/src/components/LoginPage.tsx:332
+#: packages/admin/src/components/LoginPage.tsx:334
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "Nincs még fiókod? <0>Regisztráció</0>"
 
@@ -2819,9 +2819,9 @@ msgstr ""
 msgid "em1.…"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:61
+#: packages/admin/src/components/InviteAcceptPage.tsx:62
 #: packages/admin/src/components/Settings.tsx:116
-#: packages/admin/src/components/SignupPage.tsx:197
+#: packages/admin/src/components/SignupPage.tsx:198
 #: packages/admin/src/components/users/UserDetail.tsx:154
 msgid "Email"
 msgstr "E-mail"
@@ -2830,14 +2830,14 @@ msgstr "E-mail"
 msgid "Email (optional)"
 msgstr "E-mail (opcionális)"
 
-#: packages/admin/src/components/LoginPage.tsx:126
-#: packages/admin/src/components/SignupPage.tsx:66
+#: packages/admin/src/components/LoginPage.tsx:127
+#: packages/admin/src/components/SignupPage.tsx:67
 #: packages/admin/src/components/users/InviteUserModal.tsx:152
 msgid "Email address"
 msgstr "E-mail cím"
 
 #: packages/admin/src/components/SetupWizard.tsx:179
-#: packages/admin/src/components/SignupPage.tsx:49
+#: packages/admin/src/components/SignupPage.tsx:50
 msgid "Email is required"
 msgstr "Az e-mail cím kötelező"
 
@@ -2862,7 +2862,7 @@ msgstr "E-mail beállítások"
 msgid "Email verified"
 msgstr "E-mail ellenőrizve"
 
-#: packages/admin/src/components/SignupPage.tsx:189
+#: packages/admin/src/components/SignupPage.tsx:190
 msgid "Email verified!"
 msgstr "E-mail ellenőrizve!"
 
@@ -2950,7 +2950,7 @@ msgstr "Add meg a terminálban látható kódot"
 msgid "Enter URL..."
 msgstr "URL megadása..."
 
-#: packages/admin/src/components/LoginPage.tsx:325
+#: packages/admin/src/components/LoginPage.tsx:327
 msgid "Enter your handle to sign in."
 msgstr "Add meg a felhasználóneved a bejelentkezéshez."
 
@@ -3503,8 +3503,8 @@ msgstr "Nem sikerült a beállítások mentése"
 msgid "Failed to schedule"
 msgstr "Az ütemezés nem sikerült"
 
-#: packages/admin/src/components/LoginPage.tsx:70
-#: packages/admin/src/components/LoginPage.tsx:75
+#: packages/admin/src/components/LoginPage.tsx:71
+#: packages/admin/src/components/LoginPage.tsx:76
 msgid "Failed to send magic link"
 msgstr "Nem sikerült a bejelentkezési link elküldése"
 
@@ -3517,7 +3517,7 @@ msgstr "Nem sikerült a helyreállítási link elküldése"
 msgid "Failed to send test email"
 msgstr "Nem sikerült teszt e-mailt küldeni"
 
-#: packages/admin/src/components/SignupPage.tsx:349
+#: packages/admin/src/components/SignupPage.tsx:351
 msgid "Failed to send verification email"
 msgstr "Nem sikerült ellenőrző e-mailt küldeni"
 
@@ -3939,7 +3939,7 @@ msgstr "Az ikon elhomályosítva a képaudit miatt"
 msgid "ID"
 msgstr "ID"
 
-#: packages/admin/src/components/LoginPage.tsx:103
+#: packages/admin/src/components/LoginPage.tsx:104
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "Ha létezik fiók ehhez: <0>{email}</0>, elküldtünk egy bejelentkezési linket."
 
@@ -4207,7 +4207,7 @@ msgstr "Telepítés..."
 msgid "Integer"
 msgstr "Egész szám"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:151
+#: packages/admin/src/components/InviteAcceptPage.tsx:152
 msgid "Invalid invite link"
 msgstr "Érvénytelen meghívólink"
 
@@ -4215,15 +4215,15 @@ msgstr "Érvénytelen meghívólink"
 msgid "Invalid JSON"
 msgstr "Érvénytelen JSON"
 
-#: packages/admin/src/components/SignupPage.tsx:259
+#: packages/admin/src/components/SignupPage.tsx:260
 msgid "Invalid link"
 msgstr "Érvénytelen link"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:239
+#: packages/admin/src/components/InviteAcceptPage.tsx:241
 msgid "Invite Error"
 msgstr "Meghívási hiba"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:149
+#: packages/admin/src/components/InviteAcceptPage.tsx:150
 msgid "Invite expired"
 msgstr "A meghívó lejárt"
 
@@ -4264,7 +4264,7 @@ msgid "Item updated"
 msgstr "Elem frissítve"
 
 #: packages/admin/src/components/SetupWizard.tsx:213
-#: packages/admin/src/components/SignupPage.tsx:205
+#: packages/admin/src/components/SignupPage.tsx:206
 msgid "Jane Doe"
 msgstr "Jane Doe"
 
@@ -4332,7 +4332,7 @@ msgid "Label (Singular)"
 msgstr "Elnevezés (egyes szám)"
 
 #: packages/admin/src/components/editor/CodeBlockNode.tsx:162
-#: packages/admin/src/components/LoginPage.tsx:345
+#: packages/admin/src/components/LoginPage.tsx:347
 #: packages/admin/src/components/Settings.tsx:136
 #: packages/admin/src/components/Settings.tsx:141
 msgid "Language"
@@ -4413,7 +4413,7 @@ msgstr "Világos"
 msgid "Limit"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:257
+#: packages/admin/src/components/SignupPage.tsx:258
 msgid "Link expired"
 msgstr "A link lejárt"
 
@@ -5201,7 +5201,7 @@ msgstr "Nincsenek címsorok a dokumentumban"
 msgid "No installable releases"
 msgstr "Nincs telepíthető kiadás"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:191
+#: packages/admin/src/components/InviteAcceptPage.tsx:193
 msgid "No invite token provided"
 msgstr "Nincs megadva meghívótoken"
 
@@ -5419,7 +5419,7 @@ msgstr "egyéni hosztnéven nem számít biztonságosnak, még loopback esetén 
 msgid "Only authorize codes you recognize."
 msgstr "Csak olyan kódokat engedélyezz, amelyeket felismeresz."
 
-#: packages/admin/src/components/SignupPage.tsx:96
+#: packages/admin/src/components/SignupPage.tsx:97
 msgid "Only email addresses from allowed domains can sign up."
 msgstr "Csak engedélyezett domainekhez tartozó e-mail címekkel lehet regisztrálni."
 
@@ -5431,7 +5431,7 @@ msgstr "Csak kisbetűk, számok és kötőjelek"
 msgid "Only the listed MIME types will be accepted for this field."
 msgstr "Ehhez a mezőhöz csak a felsorolt MIME-típusok fogadhatók el."
 
-#: packages/admin/src/components/SignupPage.tsx:402
+#: packages/admin/src/components/SignupPage.tsx:404
 msgid "Oops!"
 msgstr "Hoppá!"
 
@@ -5493,8 +5493,8 @@ msgstr "Vagy kattints a tallózáshoz. WordPressből exportált .xml fájlokat f
 msgid "or connect by URL"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:96
-#: packages/admin/src/components/LoginPage.tsx:261
+#: packages/admin/src/components/InviteAcceptPage.tsx:97
+#: packages/admin/src/components/LoginPage.tsx:263
 #: packages/admin/src/components/SetupWizard.tsx:310
 msgid "Or continue with"
 msgstr "Vagy folytatás ezzel"
@@ -5601,8 +5601,8 @@ msgstr "Passkeyek ({0})"
 msgid "Passkeys are a secure, passwordless way to sign in to your account. You can register multiple passkeys for different devices."
 msgstr "A passkey biztonságos, jelszó nélküli bejelentkezési mód. Több passkeyt is regisztrálhatsz különböző eszközökhöz."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:76
-#: packages/admin/src/components/SignupPage.tsx:213
+#: packages/admin/src/components/InviteAcceptPage.tsx:77
+#: packages/admin/src/components/SignupPage.tsx:214
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
 msgstr "A passkey biztonságos, jelszó nélküli bejelentkezési mód az eszköz biometrikus azonosításával, PIN-kódjával vagy biztonsági kulcsával."
 
@@ -5694,7 +5694,7 @@ msgstr "Egyszerű"
 msgid "Plain text"
 msgstr "Egyszerű szöveg"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:165
+#: packages/admin/src/components/InviteAcceptPage.tsx:166
 msgid "Please ask your administrator to send a new invite."
 msgstr "Kérd meg az adminisztrátort, hogy küldjön új meghívót."
 
@@ -5702,7 +5702,7 @@ msgstr "Kérd meg az adminisztrátort, hogy küldjön új meghívót."
 msgid "Please enter a valid email"
 msgstr "Adj meg érvényes e-mail címet"
 
-#: packages/admin/src/components/SignupPage.tsx:54
+#: packages/admin/src/components/SignupPage.tsx:55
 msgid "Please enter a valid email address"
 msgstr "Adj meg érvényes e-mail címet"
 
@@ -6174,7 +6174,7 @@ msgstr "Válasz címzettje:"
 msgid "Repository"
 msgstr "Tároló"
 
-#: packages/admin/src/components/SignupPage.tsx:273
+#: packages/admin/src/components/SignupPage.tsx:274
 msgid "Request a new link"
 msgstr "Új link kérése"
 
@@ -6204,11 +6204,11 @@ msgstr "Akadálymentességhez kötelező. Leírja a képet a képernyőolvasók 
 msgid "Requires EmDash {0}"
 msgstr "EmDash {0} szükséges"
 
-#: packages/admin/src/components/SignupPage.tsx:154
+#: packages/admin/src/components/SignupPage.tsx:155
 msgid "Resend email"
 msgstr "E-mail újraküldése"
 
-#: packages/admin/src/components/SignupPage.tsx:153
+#: packages/admin/src/components/SignupPage.tsx:154
 msgid "Resend in {resendCooldown}s"
 msgstr "Újraküldés {resendCooldown} mp múlva"
 
@@ -6844,7 +6844,7 @@ msgstr "Meghívó e-mail küldése új csapattagnak."
 msgid "Send Invite"
 msgstr "Meghívó küldése"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 msgid "Send magic link"
 msgstr "Bejelentkezési link küldése"
 
@@ -6860,10 +6860,10 @@ msgstr "Teszt küldése"
 msgid "Send Test Email"
 msgstr "Teszt e-mail küldése"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 #: packages/admin/src/components/settings/EmailSettings.tsx:127
-#: packages/admin/src/components/SignupPage.tsx:88
-#: packages/admin/src/components/SignupPage.tsx:151
+#: packages/admin/src/components/SignupPage.tsx:89
+#: packages/admin/src/components/SignupPage.tsx:152
 #: packages/admin/src/components/users/InviteUserModal.tsx:201
 #: packages/admin/src/components/users/UserDetail.tsx:332
 msgid "Sending..."
@@ -6997,7 +6997,7 @@ msgstr "Token megjelenítése"
 msgid "Shown when hovering over the image."
 msgstr "A kép fölé húzva jelenik meg."
 
-#: packages/admin/src/components/SignupPage.tsx:439
+#: packages/admin/src/components/SignupPage.tsx:441
 msgid "Sign in"
 msgstr "Bejelentkezés"
 
@@ -7005,32 +7005,32 @@ msgstr "Bejelentkezés"
 msgid "Sign In"
 msgstr "Bejelentkezés"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:161
-#: packages/admin/src/components/SignupPage.tsx:269
+#: packages/admin/src/components/InviteAcceptPage.tsx:162
+#: packages/admin/src/components/SignupPage.tsx:270
 msgid "Sign in instead"
 msgstr "Inkább bejelentkezés"
 
-#: packages/admin/src/components/LoginPage.tsx:232
+#: packages/admin/src/components/LoginPage.tsx:234
 msgid "Sign in to your site"
 msgstr "Bejelentkezés a weboldaladra"
 
 #. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
 #. placeholder {0}: provider.label
-#: packages/admin/src/components/LoginPage.tsx:231
+#: packages/admin/src/components/LoginPage.tsx:233
 #: packages/admin/src/components/SetupWizard.tsx:264
 msgid "Sign in with {0}"
 msgstr "Bejelentkezés ezzel: {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:229
+#: packages/admin/src/components/LoginPage.tsx:231
 msgid "Sign in with email"
 msgstr "Bejelentkezés e-maillel"
 
-#: packages/admin/src/components/LoginPage.tsx:290
+#: packages/admin/src/components/LoginPage.tsx:292
 msgid "Sign in with email link"
 msgstr "Bejelentkezés e-mailes linkkel"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:252
+#: packages/admin/src/components/LoginPage.tsx:254
 msgid "Sign in with Passkey"
 msgstr "Bejelentkezés passkeyjel"
 
@@ -7156,8 +7156,8 @@ msgstr "Közösségi profilok"
 msgid "Some content types cannot be imported"
 msgstr "Egyes tartalomtípusok nem importálhatók"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:154
-#: packages/admin/src/components/SignupPage.tsx:262
+#: packages/admin/src/components/InviteAcceptPage.tsx:155
+#: packages/admin/src/components/SignupPage.tsx:263
 msgid "Something went wrong"
 msgstr "Valami hiba történt"
 
@@ -7389,8 +7389,8 @@ msgstr "A következő táblák tartalmaznak tartalmat, de nincsenek gyűjtemény
 msgid "The invited user will have this role once they complete registration."
 msgstr "A meghívott felhasználó ezt a szerepkört kapja, miután befejezi a regisztrációt."
 
-#: packages/admin/src/components/LoginPage.tsx:113
-#: packages/admin/src/components/SignupPage.tsx:139
+#: packages/admin/src/components/LoginPage.tsx:114
+#: packages/admin/src/components/SignupPage.tsx:140
 msgid "The link will expire in 15 minutes."
 msgstr "A link 15 perc múlva lejár."
 
@@ -8075,7 +8075,7 @@ msgstr "Használj [param] vagy [...rest] mintát az útvonalakban a mintailleszt
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr "A bejelentkezéshez használd az eszköz biometrikus azonosítását, biztonsági kulcsát vagy PIN-kódját."
 
-#: packages/admin/src/components/LoginPage.tsx:326
+#: packages/admin/src/components/LoginPage.tsx:328
 msgid "Use your registered passkey to sign in securely."
 msgstr "Használd a regisztrált passkeyedet a biztonságos bejelentkezéshez."
 
@@ -8165,11 +8165,11 @@ msgstr "Ellenőrzött kiadó. Egy címkéző ({verifiedLabeller}) megerősített
 msgid "Verified publisher. A labeller has confirmed this publisher's identity."
 msgstr "Ellenőrzött kiadó. Egy címkéző megerősítette a kiadó személyazonosságát."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:226
+#: packages/admin/src/components/InviteAcceptPage.tsx:228
 msgid "Verifying your invite..."
 msgstr "Meghívó ellenőrzése..."
 
-#: packages/admin/src/components/SignupPage.tsx:386
+#: packages/admin/src/components/SignupPage.tsx:388
 msgid "Verifying your link..."
 msgstr "Link ellenőrzése..."
 
@@ -8251,11 +8251,11 @@ msgstr "Nem sikerült ellenőrizni a kiadó személyazonosságát"
 msgid "We'll check what import options are available for your site."
 msgstr "Ellenőrizzük, milyen importálási lehetőségek érhetők el a weboldaledhez."
 
-#: packages/admin/src/components/LoginPage.tsx:323
+#: packages/admin/src/components/LoginPage.tsx:325
 msgid "We'll send you a link to sign in without a password."
 msgstr "Küldünk egy linket, amellyel jelszó nélkül bejelentkezhetsz."
 
-#: packages/admin/src/components/SignupPage.tsx:132
+#: packages/admin/src/components/SignupPage.tsx:133
 msgid "We've sent a verification link to"
 msgstr "Ellenőrző linket küldtünk ide:"
 
@@ -8491,7 +8491,7 @@ msgid "You won't be able to use this passkey to sign in anymore. This action can
 msgstr "Többé nem fogod tudni ezt a passkeyt bejelentkezéshez használni. A művelet nem vonható vissza."
 
 #. placeholder {0}: inviteData.roleName
-#: packages/admin/src/components/InviteAcceptPage.tsx:54
+#: packages/admin/src/components/InviteAcceptPage.tsx:55
 msgid "You'll be joining as <0>{0}</0>"
 msgstr "Ezzel a szereppel fogsz csatlakozni: <0>{0}</0>"
 
@@ -8503,7 +8503,7 @@ msgstr "A rendszer kérni fogja az eszköz biometrikus azonosításának, bizton
 msgid "You'll be redirected to WordPress to authorize the connection."
 msgstr "A kapcsolat engedélyezéséhez átirányítunk a WordPresshez."
 
-#: packages/admin/src/components/SignupPage.tsx:191
+#: packages/admin/src/components/SignupPage.tsx:192
 msgid "You'll be signing up as"
 msgstr "Ezzel a szereppel regisztrálsz:"
 
@@ -8511,11 +8511,11 @@ msgstr "Ezzel a szereppel regisztrálsz:"
 msgid "You're signed in via Cloudflare Access"
 msgstr "Cloudflare Accessen keresztül vagy bejelentkezve"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:52
+#: packages/admin/src/components/InviteAcceptPage.tsx:53
 msgid "You've been invited!"
 msgstr "Meghívást kaptál!"
 
-#: packages/admin/src/components/SignupPage.tsx:70
+#: packages/admin/src/components/SignupPage.tsx:71
 msgid "you@company.com"
 msgstr "you@company.com"
 
@@ -8567,8 +8567,8 @@ msgstr ""
 msgid "Your Name"
 msgstr "Neved"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:64
-#: packages/admin/src/components/SignupPage.tsx:201
+#: packages/admin/src/components/InviteAcceptPage.tsx:65
+#: packages/admin/src/components/SignupPage.tsx:202
 msgid "Your name (optional)"
 msgstr "Neved (opcionális)"
 

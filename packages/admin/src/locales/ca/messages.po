@@ -545,7 +545,7 @@ msgstr "Accepta i instal·la"
 msgid "Accept & Update"
 msgstr "Accepta i actualitza"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:238
+#: packages/admin/src/components/InviteAcceptPage.tsx:240
 msgid "Accept Invite"
 msgstr "Accepta la invitació"
 
@@ -566,11 +566,11 @@ msgstr "Accedeix a la teva biblioteca multimèdia"
 msgid "Account"
 msgstr "Compte"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:153
+#: packages/admin/src/components/InviteAcceptPage.tsx:154
 msgid "Account already exists"
 msgstr "El compte ja existeix"
 
-#: packages/admin/src/components/SignupPage.tsx:261
+#: packages/admin/src/components/SignupPage.tsx:262
 msgid "Account exists"
 msgstr "El compte existeix"
 
@@ -862,7 +862,7 @@ msgstr "Dominis permesos"
 msgid "Allowed types"
 msgstr "Tipus permesos"
 
-#: packages/admin/src/components/SignupPage.tsx:437
+#: packages/admin/src/components/SignupPage.tsx:439
 msgid "Already have an account?"
 msgstr "Ja tens un compte?"
 
@@ -936,7 +936,7 @@ msgstr "S'ha produït un error"
 msgid "An unexpected error occurred."
 msgstr "S'ha produït un error inesperat."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:249
+#: packages/admin/src/components/InviteAcceptPage.tsx:251
 msgid "An unknown error occurred"
 msgstr "S'ha produït un error desconegut"
 
@@ -1053,7 +1053,7 @@ msgstr "Àudio"
 msgid "Authentication error: {0}"
 msgstr "Error d'autenticació: {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:195
+#: packages/admin/src/components/LoginPage.tsx:197
 msgid "Authentication error: {error}"
 msgstr "Error d'autenticació: {error}"
 
@@ -1166,11 +1166,11 @@ msgstr "Torna a la llista {collectionLabel}"
 msgid "Back to Content Types"
 msgstr "Torna als tipus de contingut"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:171
-#: packages/admin/src/components/LoginPage.tsx:117
-#: packages/admin/src/components/LoginPage.tsx:153
-#: packages/admin/src/components/LoginPage.tsx:311
-#: packages/admin/src/components/SignupPage.tsx:281
+#: packages/admin/src/components/InviteAcceptPage.tsx:172
+#: packages/admin/src/components/LoginPage.tsx:118
+#: packages/admin/src/components/LoginPage.tsx:154
+#: packages/admin/src/components/LoginPage.tsx:313
+#: packages/admin/src/components/SignupPage.tsx:282
 msgid "Back to login"
 msgstr "Torna a l'inici de sessió"
 
@@ -1478,9 +1478,9 @@ msgstr "Comprova si hi ha actualitzacions"
 msgid "Check Site"
 msgstr "Comprova el lloc"
 
-#: packages/admin/src/components/LoginPage.tsx:101
-#: packages/admin/src/components/SignupPage.tsx:130
-#: packages/admin/src/components/SignupPage.tsx:400
+#: packages/admin/src/components/LoginPage.tsx:102
+#: packages/admin/src/components/SignupPage.tsx:131
+#: packages/admin/src/components/SignupPage.tsx:402
 msgid "Check your email"
 msgstr "Comprova el teu correu electrònic"
 
@@ -1520,11 +1520,11 @@ msgstr "Neteja els filtres"
 msgid "Clear search"
 msgstr "Neteja la cerca"
 
-#: packages/admin/src/components/SignupPage.tsx:138
+#: packages/admin/src/components/SignupPage.tsx:139
 msgid "Click the link in the email to continue setting up your account."
 msgstr "Fes clic a l'enllaç del correu electrònic per continuar configurant el teu compte."
 
-#: packages/admin/src/components/LoginPage.tsx:112
+#: packages/admin/src/components/LoginPage.tsx:113
 msgid "Click the link in the email to sign in."
 msgstr "Fes clic a l'enllaç del correu electrònic per iniciar la sessió."
 
@@ -1664,7 +1664,7 @@ msgstr "Comentaris"
 msgid "Comments from logged-in CMS users are approved automatically"
 msgstr "Els comentaris dels usuaris del CMS amb sessió iniciada s'aproven automàticament"
 
-#: packages/admin/src/components/SignupPage.tsx:401
+#: packages/admin/src/components/SignupPage.tsx:403
 msgid "Complete signup"
 msgstr "Completa el registre"
 
@@ -1785,7 +1785,7 @@ msgstr "S'ha omès el contingut perquè ja existeix"
 msgid "Content Write"
 msgstr "Escriptura de contingut"
 
-#: packages/admin/src/components/SignupPage.tsx:91
+#: packages/admin/src/components/SignupPage.tsx:92
 msgid "Continue"
 msgstr "Continua"
 
@@ -1903,12 +1903,12 @@ msgstr "Crea {0}"
 msgid "Create a numbered list"
 msgstr "Crea una llista numerada"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:83
-#: packages/admin/src/components/SignupPage.tsx:220
+#: packages/admin/src/components/InviteAcceptPage.tsx:84
+#: packages/admin/src/components/SignupPage.tsx:221
 msgid "Create Account"
 msgstr "Crea un compte"
 
-#: packages/admin/src/components/SignupPage.tsx:399
+#: packages/admin/src/components/SignupPage.tsx:401
 msgid "Create an account"
 msgstr "Crea un compte"
 
@@ -2008,8 +2008,8 @@ msgstr "Crea'n el primer"
 msgid "Create your first reusable content section to get started."
 msgstr "Crea la teva primera secció de contingut reutilitzable per començar."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:74
-#: packages/admin/src/components/SignupPage.tsx:211
+#: packages/admin/src/components/InviteAcceptPage.tsx:75
+#: packages/admin/src/components/SignupPage.tsx:212
 msgid "Create your passkey"
 msgstr "Crea la teva clau d'accés"
 
@@ -2442,7 +2442,7 @@ msgstr "Vinculat al dispositiu"
 msgid "Device-bound passkey"
 msgstr "Clau d'accés vinculada al dispositiu"
 
-#: packages/admin/src/components/SignupPage.tsx:143
+#: packages/admin/src/components/SignupPage.tsx:144
 msgid "Didn't receive the email?"
 msgstr "No has rebut el correu electrònic?"
 
@@ -2589,7 +2589,7 @@ msgstr "S'ha eliminat el domini"
 msgid "Domain updated"
 msgstr "S'ha actualitzat el domini"
 
-#: packages/admin/src/components/LoginPage.tsx:332
+#: packages/admin/src/components/LoginPage.tsx:334
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "No tens cap compte? <0>Registra't</0>"
 
@@ -2819,9 +2819,9 @@ msgstr ""
 msgid "em1.…"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:61
+#: packages/admin/src/components/InviteAcceptPage.tsx:62
 #: packages/admin/src/components/Settings.tsx:116
-#: packages/admin/src/components/SignupPage.tsx:197
+#: packages/admin/src/components/SignupPage.tsx:198
 #: packages/admin/src/components/users/UserDetail.tsx:154
 msgid "Email"
 msgstr "Correu electrònic"
@@ -2830,14 +2830,14 @@ msgstr "Correu electrònic"
 msgid "Email (optional)"
 msgstr "Correu electrònic (opcional)"
 
-#: packages/admin/src/components/LoginPage.tsx:126
-#: packages/admin/src/components/SignupPage.tsx:66
+#: packages/admin/src/components/LoginPage.tsx:127
+#: packages/admin/src/components/SignupPage.tsx:67
 #: packages/admin/src/components/users/InviteUserModal.tsx:152
 msgid "Email address"
 msgstr "Adreça electrònica"
 
 #: packages/admin/src/components/SetupWizard.tsx:179
-#: packages/admin/src/components/SignupPage.tsx:49
+#: packages/admin/src/components/SignupPage.tsx:50
 msgid "Email is required"
 msgstr "El correu electrònic és obligatori"
 
@@ -2862,7 +2862,7 @@ msgstr "Configuració de correu"
 msgid "Email verified"
 msgstr "Correu electrònic verificat"
 
-#: packages/admin/src/components/SignupPage.tsx:189
+#: packages/admin/src/components/SignupPage.tsx:190
 msgid "Email verified!"
 msgstr "Correu electrònic verificat!"
 
@@ -2950,7 +2950,7 @@ msgstr "Introdueix el codi del teu terminal"
 msgid "Enter URL..."
 msgstr "Introdueix un URL..."
 
-#: packages/admin/src/components/LoginPage.tsx:325
+#: packages/admin/src/components/LoginPage.tsx:327
 msgid "Enter your handle to sign in."
 msgstr "Introdueix el teu identificador per iniciar la sessió."
 
@@ -3503,8 +3503,8 @@ msgstr "No s'ha pogut desar la configuració"
 msgid "Failed to schedule"
 msgstr "No s'ha pogut programar"
 
-#: packages/admin/src/components/LoginPage.tsx:70
-#: packages/admin/src/components/LoginPage.tsx:75
+#: packages/admin/src/components/LoginPage.tsx:71
+#: packages/admin/src/components/LoginPage.tsx:76
 msgid "Failed to send magic link"
 msgstr "No s'ha pogut enviar l'enllaç màgic"
 
@@ -3517,7 +3517,7 @@ msgstr "No s'ha pogut enviar l'enllaç de recuperació"
 msgid "Failed to send test email"
 msgstr "No s'ha pogut enviar el correu de prova"
 
-#: packages/admin/src/components/SignupPage.tsx:349
+#: packages/admin/src/components/SignupPage.tsx:351
 msgid "Failed to send verification email"
 msgstr "No s'ha pogut enviar el correu de verificació"
 
@@ -3939,7 +3939,7 @@ msgstr "Icona difuminada a causa de l'auditoria d'imatges"
 msgid "ID"
 msgstr ""
 
-#: packages/admin/src/components/LoginPage.tsx:103
+#: packages/admin/src/components/LoginPage.tsx:104
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "Si existeix un compte per a <0>{email}</0>, t'hem enviat un enllaç d'inici de sessió."
 
@@ -4207,7 +4207,7 @@ msgstr "S'està instal·lant..."
 msgid "Integer"
 msgstr "Enter"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:151
+#: packages/admin/src/components/InviteAcceptPage.tsx:152
 msgid "Invalid invite link"
 msgstr "Enllaç d'invitació no vàlid"
 
@@ -4215,15 +4215,15 @@ msgstr "Enllaç d'invitació no vàlid"
 msgid "Invalid JSON"
 msgstr "JSON no vàlid"
 
-#: packages/admin/src/components/SignupPage.tsx:259
+#: packages/admin/src/components/SignupPage.tsx:260
 msgid "Invalid link"
 msgstr "Enllaç no vàlid"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:239
+#: packages/admin/src/components/InviteAcceptPage.tsx:241
 msgid "Invite Error"
 msgstr "Error d'invitació"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:149
+#: packages/admin/src/components/InviteAcceptPage.tsx:150
 msgid "Invite expired"
 msgstr "La invitació ha caducat"
 
@@ -4264,7 +4264,7 @@ msgid "Item updated"
 msgstr "S'ha actualitzat l'element"
 
 #: packages/admin/src/components/SetupWizard.tsx:213
-#: packages/admin/src/components/SignupPage.tsx:205
+#: packages/admin/src/components/SignupPage.tsx:206
 msgid "Jane Doe"
 msgstr "Jana Puig"
 
@@ -4332,7 +4332,7 @@ msgid "Label (Singular)"
 msgstr "Etiqueta (singular)"
 
 #: packages/admin/src/components/editor/CodeBlockNode.tsx:162
-#: packages/admin/src/components/LoginPage.tsx:345
+#: packages/admin/src/components/LoginPage.tsx:347
 #: packages/admin/src/components/Settings.tsx:136
 #: packages/admin/src/components/Settings.tsx:141
 msgid "Language"
@@ -4413,7 +4413,7 @@ msgstr "Clar"
 msgid "Limit"
 msgstr ""
 
-#: packages/admin/src/components/SignupPage.tsx:257
+#: packages/admin/src/components/SignupPage.tsx:258
 msgid "Link expired"
 msgstr "L'enllaç ha caducat"
 
@@ -5201,7 +5201,7 @@ msgstr "No hi ha encapçalaments al document"
 msgid "No installable releases"
 msgstr "No hi ha versions instal·lables"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:191
+#: packages/admin/src/components/InviteAcceptPage.tsx:193
 msgid "No invite token provided"
 msgstr "No s'ha proporcionat cap testimoni d'invitació"
 
@@ -5419,7 +5419,7 @@ msgstr "en un nom d'amfitrió personalitzat no es considera segur, ni tan sols e
 msgid "Only authorize codes you recognize."
 msgstr "Autoritza només els codis que reconeguis."
 
-#: packages/admin/src/components/SignupPage.tsx:96
+#: packages/admin/src/components/SignupPage.tsx:97
 msgid "Only email addresses from allowed domains can sign up."
 msgstr "Només es poden registrar les adreces electròniques de dominis permesos."
 
@@ -5431,7 +5431,7 @@ msgstr "Només lletres minúscules, números i guions"
 msgid "Only the listed MIME types will be accepted for this field."
 msgstr "Només s'acceptaran els tipus MIME llistats per a aquest camp."
 
-#: packages/admin/src/components/SignupPage.tsx:402
+#: packages/admin/src/components/SignupPage.tsx:404
 msgid "Oops!"
 msgstr "Vaja!"
 
@@ -5493,8 +5493,8 @@ msgstr "O fes clic per explorar. Accepta fitxers .xml exportats de WordPress."
 msgid "or connect by URL"
 msgstr ""
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:96
-#: packages/admin/src/components/LoginPage.tsx:261
+#: packages/admin/src/components/InviteAcceptPage.tsx:97
+#: packages/admin/src/components/LoginPage.tsx:263
 #: packages/admin/src/components/SetupWizard.tsx:310
 msgid "Or continue with"
 msgstr "O continua amb"
@@ -5601,8 +5601,8 @@ msgstr "Claus d'accés ({0})"
 msgid "Passkeys are a secure, passwordless way to sign in to your account. You can register multiple passkeys for different devices."
 msgstr "Les claus d'accés són una manera segura i sense contrasenya d'iniciar la sessió al teu compte. Pots registrar diverses claus d'accés per a diferents dispositius."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:76
-#: packages/admin/src/components/SignupPage.tsx:213
+#: packages/admin/src/components/InviteAcceptPage.tsx:77
+#: packages/admin/src/components/SignupPage.tsx:214
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
 msgstr "Les claus d'accés són una manera segura i sense contrasenya d'iniciar la sessió amb la biometria, el PIN o la clau de seguretat del teu dispositiu."
 
@@ -5694,7 +5694,7 @@ msgstr "Simple"
 msgid "Plain text"
 msgstr "Text sense format"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:165
+#: packages/admin/src/components/InviteAcceptPage.tsx:166
 msgid "Please ask your administrator to send a new invite."
 msgstr "Demana a l'administrador que enviï una invitació nova."
 
@@ -5702,7 +5702,7 @@ msgstr "Demana a l'administrador que enviï una invitació nova."
 msgid "Please enter a valid email"
 msgstr "Introdueix un correu electrònic vàlid"
 
-#: packages/admin/src/components/SignupPage.tsx:54
+#: packages/admin/src/components/SignupPage.tsx:55
 msgid "Please enter a valid email address"
 msgstr "Introdueix una adreça electrònica vàlida"
 
@@ -6174,7 +6174,7 @@ msgstr "Respon a:"
 msgid "Repository"
 msgstr "Dipòsit"
 
-#: packages/admin/src/components/SignupPage.tsx:273
+#: packages/admin/src/components/SignupPage.tsx:274
 msgid "Request a new link"
 msgstr "Sol·licita un enllaç nou"
 
@@ -6204,11 +6204,11 @@ msgstr "Obligatori per a l'accessibilitat. Descriu la imatge per als lectors de 
 msgid "Requires EmDash {0}"
 msgstr "Requereix EmDash {0}"
 
-#: packages/admin/src/components/SignupPage.tsx:154
+#: packages/admin/src/components/SignupPage.tsx:155
 msgid "Resend email"
 msgstr "Torna a enviar el correu"
 
-#: packages/admin/src/components/SignupPage.tsx:153
+#: packages/admin/src/components/SignupPage.tsx:154
 msgid "Resend in {resendCooldown}s"
 msgstr "Torna a enviar-lo d'aquí a {resendCooldown} s"
 
@@ -6844,7 +6844,7 @@ msgstr "Envia un correu d'invitació a un membre nou de l'equip."
 msgid "Send Invite"
 msgstr "Envia la invitació"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 msgid "Send magic link"
 msgstr "Envia l'enllaç màgic"
 
@@ -6860,10 +6860,10 @@ msgstr "Envia una prova"
 msgid "Send Test Email"
 msgstr "Envia un correu de prova"
 
-#: packages/admin/src/components/LoginPage.tsx:149
+#: packages/admin/src/components/LoginPage.tsx:150
 #: packages/admin/src/components/settings/EmailSettings.tsx:127
-#: packages/admin/src/components/SignupPage.tsx:88
-#: packages/admin/src/components/SignupPage.tsx:151
+#: packages/admin/src/components/SignupPage.tsx:89
+#: packages/admin/src/components/SignupPage.tsx:152
 #: packages/admin/src/components/users/InviteUserModal.tsx:201
 #: packages/admin/src/components/users/UserDetail.tsx:332
 msgid "Sending..."
@@ -6997,7 +6997,7 @@ msgstr "Mostra el testimoni"
 msgid "Shown when hovering over the image."
 msgstr "Es mostra en passar el cursor per sobre de la imatge."
 
-#: packages/admin/src/components/SignupPage.tsx:439
+#: packages/admin/src/components/SignupPage.tsx:441
 msgid "Sign in"
 msgstr "Inicia la sessió"
 
@@ -7005,32 +7005,32 @@ msgstr "Inicia la sessió"
 msgid "Sign In"
 msgstr "Inicia la sessió"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:161
-#: packages/admin/src/components/SignupPage.tsx:269
+#: packages/admin/src/components/InviteAcceptPage.tsx:162
+#: packages/admin/src/components/SignupPage.tsx:270
 msgid "Sign in instead"
 msgstr "Inicia la sessió"
 
-#: packages/admin/src/components/LoginPage.tsx:232
+#: packages/admin/src/components/LoginPage.tsx:234
 msgid "Sign in to your site"
 msgstr "Inicia la sessió al teu lloc"
 
 #. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
 #. placeholder {0}: provider.label
-#: packages/admin/src/components/LoginPage.tsx:231
+#: packages/admin/src/components/LoginPage.tsx:233
 #: packages/admin/src/components/SetupWizard.tsx:264
 msgid "Sign in with {0}"
 msgstr "Inicia la sessió amb {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:229
+#: packages/admin/src/components/LoginPage.tsx:231
 msgid "Sign in with email"
 msgstr "Inicia la sessió amb correu electrònic"
 
-#: packages/admin/src/components/LoginPage.tsx:290
+#: packages/admin/src/components/LoginPage.tsx:292
 msgid "Sign in with email link"
 msgstr "Inicia la sessió amb un enllaç per correu electrònic"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:252
+#: packages/admin/src/components/LoginPage.tsx:254
 msgid "Sign in with Passkey"
 msgstr "Inicia la sessió amb una clau d'accés"
 
@@ -7156,8 +7156,8 @@ msgstr "Perfils socials"
 msgid "Some content types cannot be imported"
 msgstr "Alguns tipus de contingut no es poden importar"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:154
-#: packages/admin/src/components/SignupPage.tsx:262
+#: packages/admin/src/components/InviteAcceptPage.tsx:155
+#: packages/admin/src/components/SignupPage.tsx:263
 msgid "Something went wrong"
 msgstr "Alguna cosa ha anat malament"
 
@@ -7389,8 +7389,8 @@ msgstr "Les taules següents contenen contingut però no estan registrades com a
 msgid "The invited user will have this role once they complete registration."
 msgstr "L'usuari convidat tindrà aquest rol un cop completi el registre."
 
-#: packages/admin/src/components/LoginPage.tsx:113
-#: packages/admin/src/components/SignupPage.tsx:139
+#: packages/admin/src/components/LoginPage.tsx:114
+#: packages/admin/src/components/SignupPage.tsx:140
 msgid "The link will expire in 15 minutes."
 msgstr "L'enllaç caducarà d'aquí a 15 minuts."
 
@@ -8075,7 +8075,7 @@ msgstr "Utilitza [param] o [...rest] a les rutes per fer coincidència de patron
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr "Utilitza l'autenticació biomètrica, la clau de seguretat o el PIN del teu dispositiu per iniciar la sessió."
 
-#: packages/admin/src/components/LoginPage.tsx:326
+#: packages/admin/src/components/LoginPage.tsx:328
 msgid "Use your registered passkey to sign in securely."
 msgstr "Utilitza la teva clau d'accés registrada per iniciar la sessió de manera segura."
 
@@ -8165,11 +8165,11 @@ msgstr "Editor verificat. Un etiquetador ({verifiedLabeller}) ha confirmat la id
 msgid "Verified publisher. A labeller has confirmed this publisher's identity."
 msgstr "Editor verificat. Un etiquetador ha confirmat la identitat d'aquest editor."
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:226
+#: packages/admin/src/components/InviteAcceptPage.tsx:228
 msgid "Verifying your invite..."
 msgstr "S'està verificant la teva invitació..."
 
-#: packages/admin/src/components/SignupPage.tsx:386
+#: packages/admin/src/components/SignupPage.tsx:388
 msgid "Verifying your link..."
 msgstr "S'està verificant el teu enllaç..."
 
@@ -8251,11 +8251,11 @@ msgstr "No hem pogut verificar la identitat d'aquest editor"
 msgid "We'll check what import options are available for your site."
 msgstr "Comprovarem quines opcions d'importació hi ha disponibles per al teu lloc."
 
-#: packages/admin/src/components/LoginPage.tsx:323
+#: packages/admin/src/components/LoginPage.tsx:325
 msgid "We'll send you a link to sign in without a password."
 msgstr "T'enviarem un enllaç per iniciar la sessió sense contrasenya."
 
-#: packages/admin/src/components/SignupPage.tsx:132
+#: packages/admin/src/components/SignupPage.tsx:133
 msgid "We've sent a verification link to"
 msgstr "Hem enviat un enllaç de verificació a"
 
@@ -8491,7 +8491,7 @@ msgid "You won't be able to use this passkey to sign in anymore. This action can
 msgstr "Ja no podràs utilitzar aquesta clau d'accés per iniciar la sessió. Aquesta acció no es pot desfer."
 
 #. placeholder {0}: inviteData.roleName
-#: packages/admin/src/components/InviteAcceptPage.tsx:54
+#: packages/admin/src/components/InviteAcceptPage.tsx:55
 msgid "You'll be joining as <0>{0}</0>"
 msgstr "T'uniràs com a <0>{0}</0>"
 
@@ -8503,7 +8503,7 @@ msgstr "Se't demanarà que utilitzis l'autenticació biomètrica, la clau de seg
 msgid "You'll be redirected to WordPress to authorize the connection."
 msgstr "Se't redirigirà a WordPress per autoritzar la connexió."
 
-#: packages/admin/src/components/SignupPage.tsx:191
+#: packages/admin/src/components/SignupPage.tsx:192
 msgid "You'll be signing up as"
 msgstr "Et registraràs com a"
 
@@ -8511,11 +8511,11 @@ msgstr "Et registraràs com a"
 msgid "You're signed in via Cloudflare Access"
 msgstr "Has iniciat la sessió mitjançant Cloudflare Access"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:52
+#: packages/admin/src/components/InviteAcceptPage.tsx:53
 msgid "You've been invited!"
 msgstr "T'han convidat!"
 
-#: packages/admin/src/components/SignupPage.tsx:70
+#: packages/admin/src/components/SignupPage.tsx:71
 msgid "you@company.com"
 msgstr ""
 
@@ -8567,8 +8567,8 @@ msgstr "La teva biblioteca multimèdia és buida"
 msgid "Your Name"
 msgstr "El teu nom"
 
-#: packages/admin/src/components/InviteAcceptPage.tsx:64
-#: packages/admin/src/components/SignupPage.tsx:201
+#: packages/admin/src/components/InviteAcceptPage.tsx:65
+#: packages/admin/src/components/SignupPage.tsx:202
 msgid "Your name (optional)"
 msgstr "El teu nom (opcional)"
 
