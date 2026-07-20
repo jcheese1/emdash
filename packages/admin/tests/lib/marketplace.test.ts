@@ -209,11 +209,11 @@ describe("marketplace API client", () => {
 	describe("updateMarketplacePlugin", () => {
 		it("POSTs to plugin update endpoint (not marketplace proxy)", async () => {
 			fetchSpy.mockResolvedValue(new Response("{}", { status: 200 }));
-			await updateMarketplacePlugin("my-plugin", { confirmCapabilities: true });
+			await updateMarketplacePlugin("my-plugin", { confirmCapabilityChanges: true });
 			const [url, init] = fetchSpy.mock.calls[0]!;
 			expect(url).toBe("/_emdash/api/admin/plugins/my-plugin/update");
 			expect(init.method).toBe("POST");
-			expect(JSON.parse(init.body)).toEqual({ confirmCapabilities: true });
+			expect(JSON.parse(init.body)).toEqual({ confirmCapabilityChanges: true });
 		});
 
 		it("throws error message from response body", async () => {

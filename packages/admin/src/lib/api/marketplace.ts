@@ -137,7 +137,7 @@ function getMcpConsentTools(body: unknown): PluginMcpConsentTool[] | null {
 /** Update request body */
 export interface UpdatePluginOpts {
 	/** User has confirmed new capabilities */
-	confirmCapabilities?: boolean;
+	confirmCapabilityChanges?: boolean;
 	confirmMcpTools?: boolean;
 }
 

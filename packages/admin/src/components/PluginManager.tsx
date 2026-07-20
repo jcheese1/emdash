@@ -254,7 +254,7 @@ function PluginCard({
 			isRegistry
 				? updateRegistryPlugin(plugin.id, opts)
 				: updateMarketplacePlugin(plugin.id, {
-						confirmCapabilities: true,
+						confirmCapabilityChanges: true,
 						confirmMcpTools: mcpUpdateTools.length > 0,
 					}),
 		onSuccess: () => {
